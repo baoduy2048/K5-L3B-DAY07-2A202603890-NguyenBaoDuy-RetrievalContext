@@ -1,0 +1,23 @@
+{
+  "strategy": "dense_pgvector",
+  "database": "day6_lab",
+  "database_role": "day6",
+  "database_strategy": "B",
+  "embedding_model": "openai/text-embedding-3-large",
+  "embedding_dimensions": 3072,
+  "indexed_chunks": 98,
+  "split": "test",
+  "n": 5,
+  "top_k": 3,
+  "budget_chars": 3000,
+  "hit1": 2,
+  "hit3": 3,
+  "context_hit": 3,
+  "avg_context_chars": 2657.6,
+  "embedding_batch_ms": 18910.59039999891,
+  "median_database_ms": 5.3931999991618795,
+  "total_elapsed_ms": 19043.77509999722,
+  "avg_elapsed_ms_per_question": 3808.755019999444,
+  "embedding_tokens": 283,
+  "service_cost_usd": null
+}

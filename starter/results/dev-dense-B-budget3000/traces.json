@@ -1,0 +1,1366 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "Luật Sở hữu trí tuệ quy định những nhóm quyền nào?",
+    "strategy": "dense_pgvector",
+    "database_strategy": "B",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "gold": [
+      {
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "page": 2,
+        "evidence": "Luật này quy định về quyền tác giả, quyền liên quan đến quyền tác giả, quyền sở hữu công nghiệp, quyền đối với giống cây trồng và việc bảo hộ các quyền đó."
+      }
+    ],
+    "filter": null,
+    "results": [
+      {
+        "id": "paragraph-1d7da73b41e6b0ef",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 3,
+        "text": "4. Quyền sở hữu công nghiệp là quyền của tổ chức, cá nhân đối với sáng chế,\nkiểu dáng công nghiệp, thiết kế bố trí mạch tích hợp bán dẫn, nhãn hiệu, tên\nthương mại, chỉ dẫn địa lý, bí mật kinh doanh do mình sáng tạo ra hoặc sở hữu và\nquyền chống cạnh tranh không lành mạnh.\n\n5. Quyền đối với giống cây trồng là quyền của tổ chức, cá nhân đối với giống\ncây trồng mới do mình chọn tạo hoặc phát hiện và phát triển hoặc được hưởng\nquyền sở hữu.\n\n6. Chủ thể quyền sở hữu trí tuệ là chủ sở hữu quyền sở hữu trí tuệ ho ặc tổ\nchức, cá nhân được chủ sở hữu chuyển giao quyền sở hữu trí tuệ.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ nhất",
+          "unit_id": "pdf_page_003",
+          "article_end": null,
+          "chunk_index": 0,
+          "article_start": null,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2857,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.702130619902149,
+        "hit": false
+      },
+      {
+        "id": "paragraph-b173f1ac5575f41b",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 6,
+        "text": "25. Văn bằng bảo hộ là văn bản do cơ quan nhà nước có thẩm quyền cấp cho\ntổ chức, cá nhân nhằm xác lập quyền sở hữu công nghiệp đối với sáng chế, kiểu\ndáng công nghiệp, thiết kế bố trí, nhãn hiệu, chỉ dẫn địa lý; quyền đối với giống\ncây trồng.\n\n26. Vật liệu nhân giống là cây hoặc bộ phận của cây có khả năng phát triển\nthành một cây mới dùng để nhân giống hoặc để gieo trồng.\n\n27. Vật liệu thu hoạch là cây hoặc bộ phận của cây thu được từ việc gieo\ntrồng vật liệu nhân giống.\n\nĐiều 5.19 (được bãi bỏ)\n\nĐiều 6. Căn cứ phát sinh, xác lập quyền sở hữu trí tuệ\n\n1. Quyền tác giả phát sinh kể từ khi tác phẩm được sáng tạo và được thể hiện\ndưới một hình thức vật chất nhất định, không phân biệt nội dung, chất lượng, hình\nthức, phương tiện, ngôn ngữ, đã công bố hay chưa công bố, đã đăng ký hay chưa\nđăng ký.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ nhất",
+          "unit_id": "pdf_page_006",
+          "article_end": 6,
+          "chunk_index": 1,
+          "article_start": 5,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2411,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6367360201553917,
+        "hit": false
+      },
+      {
+        "id": "paragraph-b6af19bf24cbb65a",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 10,
+        "text": "địa phương theo thẩm quyền.\n5. Chính phủ quy định cụ thể thẩm quyền, trách nhiệm quản lý nhà nước về\nsở hữu trí tuệ của Bộ Khoa học và Công nghệ, Bộ Văn hóa, Thể thao và Du lịch29,\nBộ Nông nghiệp và Phát triển nông thôn, Ủy ban nhân dân các cấp.\n\nĐiều 12. Phí, lệ phí về sở hữu trí tuệ\nTổ chức, cá nhân phải nộp phí, lệ phí khi tiến hành các thủ tục liên quan đến\nquyền sở hữu trí tuệ theo quy định của Luật này và các quy định khác của pháp\nluật có liên quan.\nPhần thứ hai\nQUYỀN TÁC GIẢ VÀ QUYỀN LIÊN QUAN\nChương I\nĐIỀU KIỆN BẢO HỘ QUYỀN TÁC GIẢ VÀ QUYỀN LIÊN QUAN\nMục 1\nĐIỀU KIỆN BẢO HỘ QUYỀN TÁC GIẢ",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_010",
+          "article_end": 13,
+          "chunk_index": 0,
+          "article_start": 12,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2358,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6360918609031829,
+        "hit": false
+      }
+    ],
+    "context": "[paragraph-1d7da73b41e6b0ef | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 3]\n4. Quyền sở hữu công nghiệp là quyền của tổ chức, cá nhân đối với sáng chế,\nkiểu dáng công nghiệp, thiết kế bố trí mạch tích hợp bán dẫn, nhãn hiệu, tên\nthương mại, chỉ dẫn địa lý, bí mật kinh doanh do mình sáng tạo ra hoặc sở hữu và\nquyền chống cạnh tranh không lành mạnh.\n\n5. Quyền đối với giống cây trồng là quyền của tổ chức, cá nhân đối với giống\ncây trồng mới do mình chọn tạo hoặc phát hiện và phát triển hoặc được hưởng\nquyền sở hữu.\n\n6. Chủ thể quyền sở hữu trí tuệ là chủ sở hữu quyền sở hữu trí tuệ ho ặc tổ\nchức, cá nhân được chủ sở hữu chuyển giao quyền sở hữu trí tuệ.\n\n[paragraph-b173f1ac5575f41b | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 6]\n25. Văn bằng bảo hộ là văn bản do cơ quan nhà nước có thẩm quyền cấp cho\ntổ chức, cá nhân nhằm xác lập quyền sở hữu công nghiệp đối với sáng chế, kiểu\ndáng công nghiệp, thiết kế bố trí, nhãn hiệu, chỉ dẫn địa lý; quyền đối với giống\ncây trồng.\n\n26. Vật liệu nhân giống là cây hoặc bộ phận của cây có khả năng phát triển\nthành một cây mới dùng để nhân giống hoặc để gieo trồng.\n\n27. Vật liệu thu hoạch là cây hoặc bộ phận của cây thu được từ việc gieo\ntrồng vật liệu nhân giống.\n\nĐiều 5.19 (được bãi bỏ)\n\nĐiều 6. Căn cứ phát sinh, xác lập quyền sở hữu trí tuệ\n\n1. Quyền tác giả phát sinh kể từ khi tác phẩm được sáng tạo và được thể hiện\ndưới một hình thức vật chất nhất định, không phân biệt nội dung, chất lượng, hình\nthức, phương tiện, ngôn ngữ, đã công bố hay chưa công bố, đã đăng ký hay chưa\nđăng ký.\n\n[paragraph-b6af19bf24cbb65a | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 10]\nđịa phương theo thẩm quyền.\n5. Chính phủ quy định cụ thể thẩm quyền, trách nhiệm quản lý nhà nước về\nsở hữu trí tuệ của Bộ Khoa học và Công nghệ, Bộ Văn hóa, Thể thao và Du lịch29,\nBộ Nông nghiệp và Phát triển nông thôn, Ủy ban nhân dân các cấp.\n\nĐiều 12. Phí, lệ phí về sở hữu trí tuệ\nTổ chức, cá nhân phải nộp phí, lệ phí khi tiến hành các thủ tục liên quan đến\nquyền sở hữu trí tuệ theo quy định của Luật này và các quy định khác của pháp\nluật có liên quan.\nPhần thứ hai\nQUYỀN TÁC GIẢ VÀ QUYỀN LIÊN QUAN\nChương I\nĐIỀU KIỆN BẢO HỘ QUYỀN TÁC GIẢ VÀ QUYỀN LIÊN QUAN\nMục 1\nĐIỀU KIỆN BẢO HỘ QUYỀN TÁC GIẢ",
+    "context_ids": [
+      "paragraph-1d7da73b41e6b0ef",
+      "paragraph-b173f1ac5575f41b",
+      "paragraph-b6af19bf24cbb65a"
+    ],
+    "context_chars": 2321,
+    "database_elapsed_ms": 126.11199999992095,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "context_repacked_offline": true
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "Luật này áp dụng cho những tổ chức, cá nhân nào?",
+    "strategy": "dense_pgvector",
+    "database_strategy": "B",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "gold": [
+      {
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "page": 2,
+        "evidence": "Luật này áp dụng đối với tổ chức, cá nhân Việt Nam; tổ chức, cá nhân nước ngoài đáp ứng các điều kiện quy định tại Luật này và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên."
+      }
+    ],
+    "filter": null,
+    "results": [
+      {
+        "id": "paragraph-5fa9e298c4ca333b",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 12,
+        "text": "3. Quy trình, hệ thống, phương pháp hoạt động, khái niệm, nguyên lý, số liệu.\n\nMục 2\nĐIỀU KIỆN BẢO HỘ QUYỀN LIÊN QUAN\n\nĐiều 16. Tổ chức, cá nhân được bảo hộ quyền liên quan\n1. Diễn viên, ca sĩ, nhạc công, vũ công và những người khác trình bày tác\nphẩm văn học, nghệ thuật (sau đây gọi chung là người biểu diễn).\n2. Tổ chức, cá nhân là chủ sở hữu quyền liên quan33 quy định tại34 Điều 44\ncủa Luật này.\n3. Tổ chức, cá nhân định hình lần đầu âm thanh, hình ảnh của cuộc biểu diễn\nhoặc các âm thanh , hình ảnh khác (sau đây gọi là nhà sản xuất bản ghi âm, ghi\nhình).\n4. Tổ chức khởi xướng và thực hiện việc phát sóng (sau đây gọi là tổ chức\nphát sóng).\n\nĐiều 17. Các đối tượng quyền liên quan được bảo hộ\n\n1. Cuộc biểu diễn được bảo hộ nếu thuộc một trong các trường hợp sau đây:\n\na) Cuộc biểu diễn do công dân Việt Nam thực hiện tại Việt Nam hoặc nước\nngoài;\n\nb) Cuộc biểu diễn do người nước ngoài thực hiện tại Việt Nam;",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_012",
+          "article_end": 17,
+          "chunk_index": 0,
+          "article_start": 16,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2089,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.49022412530974924,
+        "hit": false
+      },
+      {
+        "id": "paragraph-87cec18e564ebe8c",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 14,
+        "text": "2. Các quyền quy định tại khoản 1 Điều này do tác giả, chủ sở hữu quyền tác\ngiả độc quyền thực hiện hoặc cho phép tổ chức, cá nhân khác thực hiện theo quy\nđịnh của Luật này.\nTổ chức, cá nhân khi khai thác, sử dụng một, một số hoặc toàn bộ các quyền\nquy định tại khoản 1 Điều này và khoản 3 Điều 19 của Luật này phải được sự cho\nphép của chủ sở hữu quyền tác giả và trả tiền bản quyền, các quyền lợi vật chất\nkhác (nếu có) cho chủ sở hữu quyền tác giả, trừ trường hợp quy định tại khoản 3\nĐiều này, các điều 25, 25a, 26, 32 và 33 của Luật này. Trường hợp làm tác phẩm\nphái sinh mà ảnh hưởng đến quyền nhân thân quy định tại khoản 4 Điều 19 của\nLuật này còn phải được sự đồng ý bằng văn bản của tác giả.\n\n3. Chủ sở hữu quyền tác giả không có quyền ngăn cấm tổ chức, cá nhân khác\nthực hiện các hành vi sau đây:",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_014",
+          "article_end": 20,
+          "chunk_index": 2,
+          "article_start": 20,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2331,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.4582630005322186,
+        "hit": false
+      },
+      {
+        "id": "paragraph-298a8fec986b7699",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 28,
+        "text": "đó giải mã trái phép hoặc chủ yếu để giúp cho việc giải mã trái phép tín hiệu vệ\ntinh mang chương trình được mã hóa.\n10. Cố ý thu hoặc tiếp tục phân phối tín hiệu vệ tinh mang chương trình được\nmã hóa khi tín hiệu đã được giải mã mà không được phép của người phân phối\nhợp pháp.\n11. Không thực hiện hoặc thực hiện không đầy đủ quy định để được miễn\ntrừ trách nhiệm pháp lý của doanh nghiệp cung cấp dịch vụ trung gian quy định\ntại khoản 3 Điều 198b của Luật này.\n\nChương III\nCHỦ SỞ HỮU QUYỀN TÁC GIẢ, QUYỀN LIÊN QUAN\n\nĐiều 36. Chủ sở hữu quyền tác giả50\nChủ sở hữu quyền tác giả là tổ chức, cá nhân nắm giữ một, một số hoặc toàn\nbộ quyền quy định tại khoản 3 Điều 19 và khoản 1 Điều 20 của Luật này.\n\nĐiều 37. Chủ sở hữu quyền tác giả là tác giả\nTác giả sử dụng thời gian, tài chính, cơ sở vật chất - kỹ thuật của mình để\nsáng tạo ra tác phẩm có các quyền nhân thân quy định tại Đ iều 19 và các quyền\ntài sản quy định tại Điều 20 của Luật này.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_028",
+          "article_end": 39,
+          "chunk_index": 0,
+          "article_start": 36,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2164,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.45302239393820154,
+        "hit": false
+      }
+    ],
+    "context": "[paragraph-5fa9e298c4ca333b | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 12]\n3. Quy trình, hệ thống, phương pháp hoạt động, khái niệm, nguyên lý, số liệu.\n\nMục 2\nĐIỀU KIỆN BẢO HỘ QUYỀN LIÊN QUAN\n\nĐiều 16. Tổ chức, cá nhân được bảo hộ quyền liên quan\n1. Diễn viên, ca sĩ, nhạc công, vũ công và những người khác trình bày tác\nphẩm văn học, nghệ thuật (sau đây gọi chung là người biểu diễn).\n2. Tổ chức, cá nhân là chủ sở hữu quyền liên quan33 quy định tại34 Điều 44\ncủa Luật này.\n3. Tổ chức, cá nhân định hình lần đầu âm thanh, hình ảnh của cuộc biểu diễn\nhoặc các âm thanh , hình ảnh khác (sau đây gọi là nhà sản xuất bản ghi âm, ghi\nhình).\n4. Tổ chức khởi xướng và thực hiện việc phát sóng (sau đây gọi là tổ chức\nphát sóng).\n\nĐiều 17. Các đối tượng quyền liên quan được bảo hộ\n\n1. Cuộc biểu diễn được bảo hộ nếu thuộc một trong các trường hợp sau đây:\n\na) Cuộc biểu diễn do công dân Việt Nam thực hiện tại Việt Nam hoặc nước\nngoài;\n\nb) Cuộc biểu diễn do người nước ngoài thực hiện tại Việt Nam;\n\n[paragraph-87cec18e564ebe8c | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 14]\n2. Các quyền quy định tại khoản 1 Điều này do tác giả, chủ sở hữu quyền tác\ngiả độc quyền thực hiện hoặc cho phép tổ chức, cá nhân khác thực hiện theo quy\nđịnh của Luật này.\nTổ chức, cá nhân khi khai thác, sử dụng một, một số hoặc toàn bộ các quyền\nquy định tại khoản 1 Điều này và khoản 3 Điều 19 của Luật này phải được sự cho\nphép của chủ sở hữu quyền tác giả và trả tiền bản quyền, các quyền lợi vật chất\nkhác (nếu có) cho chủ sở hữu quyền tác giả, trừ trường hợp quy định tại khoản 3\nĐiều này, các điều 25, 25a, 26, 32 và 33 của Luật này. Trường hợp làm tác phẩm\nphái sinh mà ảnh hưởng đến quyền nhân thân quy định tại khoản 4 Điều 19 của\nLuật này còn phải được sự đồng ý bằng văn bản của tác giả.\n\n3. Chủ sở hữu quyền tác giả không có quyền ngăn cấm tổ chức, cá nhân khác\nthực hiện các hành vi sau đây:",
+    "context_ids": [
+      "paragraph-5fa9e298c4ca333b",
+      "paragraph-87cec18e564ebe8c"
+    ],
+    "context_chars": 1947,
+    "database_elapsed_ms": 7.202299999335082,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "context_repacked_offline": true
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "Những loại sáng tạo nào được nêu là đối tượng quyền tác giả?",
+    "strategy": "dense_pgvector",
+    "database_strategy": "B",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "gold": [
+      {
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "page": 2,
+        "evidence": "Đối tượng quyền tác giả bao gồm tác phẩm văn học, nghệ thuật, khoa học;"
+      }
+    ],
+    "filter": null,
+    "results": [
+      {
+        "id": "paragraph-44fed179f4a29081",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 3,
+        "text": "7. Tác phẩm là sản phẩm sáng tạo trong lĩnh vực văn học, nghệ thuật và khoa\nhọc thể hiện bằng bất kỳ phương tiện hay hình thức nào.\n8.4 Tác phẩm phái sinh là tác phẩm được sáng tạo trên cơ sở một hoặc nhiều\ntác phẩm đã có thông qua việc dịch từ ngôn ngữ này sang ngôn ngữ khác, phóng\ntác, biên soạn, chú giải, tuyển chọn, cải biên, chuyển thể nhạc và các chuyển thể\nkhác.\n9.5 Tác phẩm, bản ghi âm, ghi hình đã công bố là tác phẩm, bản ghi âm, ghi\nhình đã được phát hành với sự đồng ý của chủ sở hữu quyền tác giả, chủ sở hữu\nquyền liên quan để phổ biến đến công chúng bản sao dưới bất kỳ hình thức nào\nvới số lượng hợp lý.\n10.6 Sao chép là việc tạo ra bản sao của toàn bộ hoặc một phần tác phẩm\nhoặc bản ghi âm, ghi hình bằng bất kỳ phương tiện hay hình thức nào.\n10a.7 Tiền bản quyền là khoản tiền trả cho việc sáng tạo hoặc chuyển giao\nquyền tác giả, quyền liên quan đối với tác phẩm, cuộc biểu diễn, bản ghi âm, ghi\nhình, chương trình phát sóng, bao gồm cả tiền nhuận bút, tiền thù lao.\n10b.8 Biện",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ nhất",
+          "unit_id": "pdf_page_003",
+          "article_end": null,
+          "chunk_index": 1,
+          "article_start": null,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2857,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6467916362677913,
+        "hit": false
+      },
+      {
+        "id": "paragraph-b173f1ac5575f41b",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 6,
+        "text": "25. Văn bằng bảo hộ là văn bản do cơ quan nhà nước có thẩm quyền cấp cho\ntổ chức, cá nhân nhằm xác lập quyền sở hữu công nghiệp đối với sáng chế, kiểu\ndáng công nghiệp, thiết kế bố trí, nhãn hiệu, chỉ dẫn địa lý; quyền đối với giống\ncây trồng.\n\n26. Vật liệu nhân giống là cây hoặc bộ phận của cây có khả năng phát triển\nthành một cây mới dùng để nhân giống hoặc để gieo trồng.\n\n27. Vật liệu thu hoạch là cây hoặc bộ phận của cây thu được từ việc gieo\ntrồng vật liệu nhân giống.\n\nĐiều 5.19 (được bãi bỏ)\n\nĐiều 6. Căn cứ phát sinh, xác lập quyền sở hữu trí tuệ\n\n1. Quyền tác giả phát sinh kể từ khi tác phẩm được sáng tạo và được thể hiện\ndưới một hình thức vật chất nhất định, không phân biệt nội dung, chất lượng, hình\nthức, phương tiện, ngôn ngữ, đã công bố hay chưa công bố, đã đăng ký hay chưa\nđăng ký.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ nhất",
+          "unit_id": "pdf_page_006",
+          "article_end": 6,
+          "chunk_index": 1,
+          "article_start": 5,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2411,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6004019357571546,
+        "hit": false
+      },
+      {
+        "id": "paragraph-22048fa3c96a6ec7",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 10,
+        "text": "Điều 12a. Tác giả, đồng tác giả30\n1. Tác giả là người trực tiếp sáng tạo tác phẩm. Trường hợp có từ hai người\ntrở lên cùng trực tiếp sáng tạo tác phẩm với chủ ý là sự đóng góp của họ được kết\nhợp thành một tổng thể hoàn chỉnh thì những người đó là các đồng tác giả.\n2. Người hỗ trợ, góp ý kiến hoặc cung cấp tư liệu cho người khác sáng tạo\ntác phẩm không phải là tác giả, đồng tác giả.\n3. Việc thực hiện quyền nhân thân và quyền tài sản đối với tác phẩm có đồng\ntác giả phải có sự thỏa thuận của các đồng tác giả, trừ trường hợp tác phẩm có\nphần riêng biệt có thể tách ra sử dụng độc lập mà không làm phương hại đến phần\ncủa các đồng tác giả khác hoặc luật khác có quy định khác.\n\nĐiều 13. Tác giả, chủ sở hữu quyền tác giả có tác phẩm được bảo hộ\nquyền tác giả\n\n1. Tổ chức, cá nhân có tác phẩm được bảo hộ quyền tác giả gồm người trực\ntiếp sáng tạo ra tác phẩm và chủ sở hữu quyền tác giả quy định tại các điều từ\nĐiều 37 đến Điều 42 của Luật này.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_010",
+          "article_end": 13,
+          "chunk_index": 1,
+          "article_start": 12,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2358,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5810674893705378,
+        "hit": false
+      }
+    ],
+    "context": "[paragraph-44fed179f4a29081 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 3]\n7. Tác phẩm là sản phẩm sáng tạo trong lĩnh vực văn học, nghệ thuật và khoa\nhọc thể hiện bằng bất kỳ phương tiện hay hình thức nào.\n8.4 Tác phẩm phái sinh là tác phẩm được sáng tạo trên cơ sở một hoặc nhiều\ntác phẩm đã có thông qua việc dịch từ ngôn ngữ này sang ngôn ngữ khác, phóng\ntác, biên soạn, chú giải, tuyển chọn, cải biên, chuyển thể nhạc và các chuyển thể\nkhác.\n9.5 Tác phẩm, bản ghi âm, ghi hình đã công bố là tác phẩm, bản ghi âm, ghi\nhình đã được phát hành với sự đồng ý của chủ sở hữu quyền tác giả, chủ sở hữu\nquyền liên quan để phổ biến đến công chúng bản sao dưới bất kỳ hình thức nào\nvới số lượng hợp lý.\n10.6 Sao chép là việc tạo ra bản sao của toàn bộ hoặc một phần tác phẩm\nhoặc bản ghi âm, ghi hình bằng bất kỳ phương tiện hay hình thức nào.\n10a.7 Tiền bản quyền là khoản tiền trả cho việc sáng tạo hoặc chuyển giao\nquyền tác giả, quyền liên quan đối với tác phẩm, cuộc biểu diễn, bản ghi âm, ghi\nhình, chương trình phát sóng, bao gồm cả tiền nhuận bút, tiền thù lao.\n10b.8 Biện\n\n[paragraph-b173f1ac5575f41b | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 6]\n25. Văn bằng bảo hộ là văn bản do cơ quan nhà nước có thẩm quyền cấp cho\ntổ chức, cá nhân nhằm xác lập quyền sở hữu công nghiệp đối với sáng chế, kiểu\ndáng công nghiệp, thiết kế bố trí, nhãn hiệu, chỉ dẫn địa lý; quyền đối với giống\ncây trồng.\n\n26. Vật liệu nhân giống là cây hoặc bộ phận của cây có khả năng phát triển\nthành một cây mới dùng để nhân giống hoặc để gieo trồng.\n\n27. Vật liệu thu hoạch là cây hoặc bộ phận của cây thu được từ việc gieo\ntrồng vật liệu nhân giống.\n\nĐiều 5.19 (được bãi bỏ)\n\nĐiều 6. Căn cứ phát sinh, xác lập quyền sở hữu trí tuệ\n\n1. Quyền tác giả phát sinh kể từ khi tác phẩm được sáng tạo và được thể hiện\ndưới một hình thức vật chất nhất định, không phân biệt nội dung, chất lượng, hình\nthức, phương tiện, ngôn ngữ, đã công bố hay chưa công bố, đã đăng ký hay chưa\nđăng ký.",
+    "context_ids": [
+      "paragraph-44fed179f4a29081",
+      "paragraph-b173f1ac5575f41b"
+    ],
+    "context_chars": 2025,
+    "database_elapsed_ms": 4.551800000626827,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "context_repacked_offline": true
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "Theo luật, tác phẩm phái sinh được tạo ra bằng những cách nào?",
+    "strategy": "dense_pgvector",
+    "database_strategy": "B",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "gold": [
+      {
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "page": 3,
+        "evidence": "Tác phẩm phái sinh là tác phẩm được sáng tạo trên cơ sở một hoặc nhiều tác phẩm đã có thông qua việc dịch từ ngôn ngữ này sang ngôn ngữ khác, phóng tác, biên soạn, chú giải, tuyển chọn, cải biên, chuyển thể nhạc và các chuyển thể khác."
+      }
+    ],
+    "filter": null,
+    "results": [
+      {
+        "id": "paragraph-84397649427ddee6",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 11,
+        "text": "2. Tác phẩm phái sinh chỉ được bảo hộ theo quy định tại khoản 1 Điều này\nnếu không gây phương hại đến quyền tác giả đối với tác phẩm được dùng để làm\ntác phẩm phái sinh.\n\n3. Tác phẩm được bảo hộ quy định tại khoản 1 và khoản 2 Điều này phải do\ntác giả trực tiếp sáng tạo bằng lao động trí tuệ của mình mà không sao chép từ tác\nphẩm của người khác.\n\n4. Chính phủ hướng dẫn cụ thể về các loại hình tác phẩm quy định tại khoản\n1 Điều này.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_011",
+          "article_end": 15,
+          "chunk_index": 1,
+          "article_start": 14,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 1961,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5943237681685171,
+        "hit": false
+      },
+      {
+        "id": "paragraph-44fed179f4a29081",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 3,
+        "text": "7. Tác phẩm là sản phẩm sáng tạo trong lĩnh vực văn học, nghệ thuật và khoa\nhọc thể hiện bằng bất kỳ phương tiện hay hình thức nào.\n8.4 Tác phẩm phái sinh là tác phẩm được sáng tạo trên cơ sở một hoặc nhiều\ntác phẩm đã có thông qua việc dịch từ ngôn ngữ này sang ngôn ngữ khác, phóng\ntác, biên soạn, chú giải, tuyển chọn, cải biên, chuyển thể nhạc và các chuyển thể\nkhác.\n9.5 Tác phẩm, bản ghi âm, ghi hình đã công bố là tác phẩm, bản ghi âm, ghi\nhình đã được phát hành với sự đồng ý của chủ sở hữu quyền tác giả, chủ sở hữu\nquyền liên quan để phổ biến đến công chúng bản sao dưới bất kỳ hình thức nào\nvới số lượng hợp lý.\n10.6 Sao chép là việc tạo ra bản sao của toàn bộ hoặc một phần tác phẩm\nhoặc bản ghi âm, ghi hình bằng bất kỳ phương tiện hay hình thức nào.\n10a.7 Tiền bản quyền là khoản tiền trả cho việc sáng tạo hoặc chuyển giao\nquyền tác giả, quyền liên quan đối với tác phẩm, cuộc biểu diễn, bản ghi âm, ghi\nhình, chương trình phát sóng, bao gồm cả tiền nhuận bút, tiền thù lao.\n10b.8 Biện",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ nhất",
+          "unit_id": "pdf_page_003",
+          "article_end": null,
+          "chunk_index": 1,
+          "article_start": null,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2857,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5683559615945671,
+        "hit": true
+      },
+      {
+        "id": "paragraph-b173f1ac5575f41b",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 6,
+        "text": "25. Văn bằng bảo hộ là văn bản do cơ quan nhà nước có thẩm quyền cấp cho\ntổ chức, cá nhân nhằm xác lập quyền sở hữu công nghiệp đối với sáng chế, kiểu\ndáng công nghiệp, thiết kế bố trí, nhãn hiệu, chỉ dẫn địa lý; quyền đối với giống\ncây trồng.\n\n26. Vật liệu nhân giống là cây hoặc bộ phận của cây có khả năng phát triển\nthành một cây mới dùng để nhân giống hoặc để gieo trồng.\n\n27. Vật liệu thu hoạch là cây hoặc bộ phận của cây thu được từ việc gieo\ntrồng vật liệu nhân giống.\n\nĐiều 5.19 (được bãi bỏ)\n\nĐiều 6. Căn cứ phát sinh, xác lập quyền sở hữu trí tuệ\n\n1. Quyền tác giả phát sinh kể từ khi tác phẩm được sáng tạo và được thể hiện\ndưới một hình thức vật chất nhất định, không phân biệt nội dung, chất lượng, hình\nthức, phương tiện, ngôn ngữ, đã công bố hay chưa công bố, đã đăng ký hay chưa\nđăng ký.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ nhất",
+          "unit_id": "pdf_page_006",
+          "article_end": 6,
+          "chunk_index": 1,
+          "article_start": 5,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2411,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.47274465498101814,
+        "hit": false
+      }
+    ],
+    "context": "[paragraph-84397649427ddee6 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 11]\n2. Tác phẩm phái sinh chỉ được bảo hộ theo quy định tại khoản 1 Điều này\nnếu không gây phương hại đến quyền tác giả đối với tác phẩm được dùng để làm\ntác phẩm phái sinh.\n\n3. Tác phẩm được bảo hộ quy định tại khoản 1 và khoản 2 Điều này phải do\ntác giả trực tiếp sáng tạo bằng lao động trí tuệ của mình mà không sao chép từ tác\nphẩm của người khác.\n\n4. Chính phủ hướng dẫn cụ thể về các loại hình tác phẩm quy định tại khoản\n1 Điều này.\n\n[paragraph-44fed179f4a29081 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 3]\n7. Tác phẩm là sản phẩm sáng tạo trong lĩnh vực văn học, nghệ thuật và khoa\nhọc thể hiện bằng bất kỳ phương tiện hay hình thức nào.\n8.4 Tác phẩm phái sinh là tác phẩm được sáng tạo trên cơ sở một hoặc nhiều\ntác phẩm đã có thông qua việc dịch từ ngôn ngữ này sang ngôn ngữ khác, phóng\ntác, biên soạn, chú giải, tuyển chọn, cải biên, chuyển thể nhạc và các chuyển thể\nkhác.\n9.5 Tác phẩm, bản ghi âm, ghi hình đã công bố là tác phẩm, bản ghi âm, ghi\nhình đã được phát hành với sự đồng ý của chủ sở hữu quyền tác giả, chủ sở hữu\nquyền liên quan để phổ biến đến công chúng bản sao dưới bất kỳ hình thức nào\nvới số lượng hợp lý.\n10.6 Sao chép là việc tạo ra bản sao của toàn bộ hoặc một phần tác phẩm\nhoặc bản ghi âm, ghi hình bằng bất kỳ phương tiện hay hình thức nào.\n10a.7 Tiền bản quyền là khoản tiền trả cho việc sáng tạo hoặc chuyển giao\nquyền tác giả, quyền liên quan đối với tác phẩm, cuộc biểu diễn, bản ghi âm, ghi\nhình, chương trình phát sóng, bao gồm cả tiền nhuận bút, tiền thù lao.\n10b.8 Biện\n\n[paragraph-b173f1ac5575f41b | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 6]\n25. Văn bằng bảo hộ là văn bản do cơ quan nhà nước có thẩm quyền cấp cho\ntổ chức, cá nhân nhằm xác lập quyền sở hữu công nghiệp đối với sáng chế, kiểu\ndáng công nghiệp, thiết kế bố trí, nhãn hiệu, chỉ dẫn địa lý; quyền đối với giống\ncây trồng.\n\n26. Vật liệu nhân giống là cây hoặc bộ phận của cây có khả năng phát triển\nthành một cây mới dùng để nhân giống hoặc để gieo trồng.\n\n27. Vật liệu thu hoạch là cây hoặc bộ phận của cây thu được từ việc gieo\ntrồng vật liệu nhân giống.\n\nĐiều 5.19 (được bãi bỏ)\n\nĐiều 6. Căn cứ phát sinh, xác lập quyền sở hữu trí tuệ\n\n1. Quyền tác giả phát sinh kể từ khi tác phẩm được sáng tạo và được thể hiện\ndưới một hình thức vật chất nhất định, không phân biệt nội dung, chất lượng, hình\nthức, phương tiện, ngôn ngữ, đã công bố hay chưa công bố, đã đăng ký hay chưa\nđăng ký.",
+    "context_ids": [
+      "paragraph-84397649427ddee6",
+      "paragraph-44fed179f4a29081",
+      "paragraph-b173f1ac5575f41b"
+    ],
+    "context_chars": 2572,
+    "database_elapsed_ms": 2.889000001232489,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "context_repacked_offline": true
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Nhãn hiệu có chức năng phân biệt những gì?",
+    "strategy": "dense_pgvector",
+    "database_strategy": "B",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "gold": [
+      {
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "page": 5,
+        "evidence": "Nhãn hiệu là dấu hiệu dùng để phân biệt hàng hóa, dịch vụ của các tổ chức, cá nhân khác nhau."
+      }
+    ],
+    "filter": null,
+    "results": [
+      {
+        "id": "paragraph-018cb92c643fa715",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 5,
+        "text": "13.14 Kiểu dáng công nghiệp là hình dáng bên ngoài của sản phẩm hoặc bộ\nphận để lắp ráp thành sản phẩm phức hợp, được thể hiện bằng hình khối, đường\nnét, màu sắc hoặc sự kết hợp những yếu tố này và nhìn thấy được trong quá trình\nkhai thác công dụng của sản phẩm hoặc sản phẩm phức hợp.\n\n14. Mạch tích hợp bán dẫn là sản phẩm dưới dạng thành phẩm hoặc bán\nthành phẩm, trong đó các phần tử với ít nhất một phần tử tích cực và một số hoặc\ntất cả các mối liên kết được gắn liền bên trong hoặc bên trên tấm vật liệu bán dẫn\nnhằm thực hiện chức năng điện tử. Mạch tích hợp đồng nghĩa với IC, chip và\nmạch vi điện tử.\n\n15. Thiết kế bố trí mạch tích hợp bán dẫn (sau đây gọi là thiết kế bố trí) là\ncấu trúc không gian của các phần tử mạch và mối liên kết các phần tử đó trong\nmạch tích hợp bán dẫn.\n\n16. Nhãn hiệu là dấu hiệu dùng để phân biệt hàng hóa, dịch vụ của các tổ\nchức, cá nhân khác nhau.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ nhất",
+          "unit_id": "pdf_page_005",
+          "article_end": null,
+          "chunk_index": 0,
+          "article_start": null,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2516,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6003088825457696,
+        "hit": true
+      },
+      {
+        "id": "paragraph-b1e39024657185fa",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 5,
+        "text": "17. Nhãn hiệu tập thể là nhãn hiệu dùng để phân biệt hàng hóa, dịch vụ của\ncác thành viên của tổ chức là chủ sở hữu nhãn hiệu đó với hàng hóa, dịch vụ của\ntổ chức, cá nhân không phải là thành viên của tổ chức đó.\n\n18. Nhãn hiệu chứng nhận là nhãn hiệu mà chủ sở hữu nhãn hiệu cho phép\ntổ chức, cá nhân khác sử dụng trên hàng hóa, dịch vụ của tổ chức, cá nhân đó để\nchứng nhận các đặc tính về xuất xứ, nguyên liệu, vật liệu, cách thức sản xuất hàng\nhóa, cách thức cung cấp dịch vụ, chất lượng, độ chính xác, độ an toàn hoặc các\nđặc tính khác của hàng hóa, dịch vụ mang nhãn hiệu.\n19.15 (được bãi bỏ)\n20.16 Nhãn hiệu nổi tiếng là nhãn hiệu được bộ phận công chúng có liên quan\nbiết đến rộng rãi trên lãnh thổ Việt Nam.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ nhất",
+          "unit_id": "pdf_page_005",
+          "article_end": null,
+          "chunk_index": 1,
+          "article_start": null,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2516,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5718958515507434,
+        "hit": false
+      },
+      {
+        "id": "paragraph-d37635bc46130730",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 7,
+        "text": "a)20 Quyền sở hữu công nghiệp đối với sáng chế, kiểu dáng công nghiệp,\nthiết kế bố trí, nhãn hiệu được xác lập trên cơ sở quyết định cấp văn bằng bảo hộ\ncủa cơ quan nhà nước có thẩm quyền theo thủ tục đăng ký quy định tại Luật này\nhoặc công nhận đăng ký quốc tế theo điều ước quốc tế mà Cộng hòa xã hội chủ\nnghĩa Việt Nam là thành viên.\nQuyền sở hữu công nghiệp đối với nhãn hiệu nổi tiếng được xác lập trên cơ\nsở sử dụng, không phụ thuộc vào thủ tục đăng ký.\nQuyền sở hữu công nghiệp đối với chỉ dẫn địa lý được xác lập trên cơ sở\nquyết định cấp văn bằng bảo hộ của cơ quan nhà nước có thẩm quyền theo thủ tục\nđăng ký quy định tại Luật này hoặc theo điều ước quốc tế mà Cộng hòa xã hội\nchủ nghĩa Việt Nam là thành viên;\n\nb) Quyền sở hữu công nghiệp đối với tên thương mại được xác lập trên cơ\nsở sử dụng hợp pháp tên thương mại đó;",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ nhất",
+          "unit_id": "pdf_page_007",
+          "article_end": 7,
+          "chunk_index": 0,
+          "article_start": 7,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2706,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.4493973629793546,
+        "hit": false
+      }
+    ],
+    "context": "[paragraph-018cb92c643fa715 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 5]\n13.14 Kiểu dáng công nghiệp là hình dáng bên ngoài của sản phẩm hoặc bộ\nphận để lắp ráp thành sản phẩm phức hợp, được thể hiện bằng hình khối, đường\nnét, màu sắc hoặc sự kết hợp những yếu tố này và nhìn thấy được trong quá trình\nkhai thác công dụng của sản phẩm hoặc sản phẩm phức hợp.\n\n14. Mạch tích hợp bán dẫn là sản phẩm dưới dạng thành phẩm hoặc bán\nthành phẩm, trong đó các phần tử với ít nhất một phần tử tích cực và một số hoặc\ntất cả các mối liên kết được gắn liền bên trong hoặc bên trên tấm vật liệu bán dẫn\nnhằm thực hiện chức năng điện tử. Mạch tích hợp đồng nghĩa với IC, chip và\nmạch vi điện tử.\n\n15. Thiết kế bố trí mạch tích hợp bán dẫn (sau đây gọi là thiết kế bố trí) là\ncấu trúc không gian của các phần tử mạch và mối liên kết các phần tử đó trong\nmạch tích hợp bán dẫn.\n\n16. Nhãn hiệu là dấu hiệu dùng để phân biệt hàng hóa, dịch vụ của các tổ\nchức, cá nhân khác nhau.\n\n[paragraph-b1e39024657185fa | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 5]\n17. Nhãn hiệu tập thể là nhãn hiệu dùng để phân biệt hàng hóa, dịch vụ của\ncác thành viên của tổ chức là chủ sở hữu nhãn hiệu đó với hàng hóa, dịch vụ của\ntổ chức, cá nhân không phải là thành viên của tổ chức đó.\n\n18. Nhãn hiệu chứng nhận là nhãn hiệu mà chủ sở hữu nhãn hiệu cho phép\ntổ chức, cá nhân khác sử dụng trên hàng hóa, dịch vụ của tổ chức, cá nhân đó để\nchứng nhận các đặc tính về xuất xứ, nguyên liệu, vật liệu, cách thức sản xuất hàng\nhóa, cách thức cung cấp dịch vụ, chất lượng, độ chính xác, độ an toàn hoặc các\nđặc tính khác của hàng hóa, dịch vụ mang nhãn hiệu.\n19.15 (được bãi bỏ)\n20.16 Nhãn hiệu nổi tiếng là nhãn hiệu được bộ phận công chúng có liên quan\nbiết đến rộng rãi trên lãnh thổ Việt Nam.\n\n[paragraph-d37635bc46130730 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 7]\na)20 Quyền sở hữu công nghiệp đối với sáng chế, kiểu dáng công nghiệp,\nthiết kế bố trí, nhãn hiệu được xác lập trên cơ sở quyết định cấp văn bằng bảo hộ\ncủa cơ quan nhà nước có thẩm quyền theo thủ tục đăng ký quy định tại Luật này\nhoặc công nhận đăng ký quốc tế theo điều ước quốc tế mà Cộng hòa xã hội chủ\nnghĩa Việt Nam là thành viên.\nQuyền sở hữu công nghiệp đối với nhãn hiệu nổi tiếng được xác lập trên cơ\nsở sử dụng, không phụ thuộc vào thủ tục đăng ký.\nQuyền sở hữu công nghiệp đối với chỉ dẫn địa lý được xác lập trên cơ sở\nquyết định cấp văn bằng bảo hộ của cơ quan nhà nước có thẩm quyền theo thủ tục\nđăng ký quy định tại Luật này hoặc theo điều ước quốc tế mà Cộng hòa xã hội\nchủ nghĩa Việt Nam là thành viên;\n\nb) Quyền sở hữu công nghiệp đối với tên thương mại được xác lập trên cơ\nsở sử dụng hợp pháp tên thương mại đó;",
+    "context_ids": [
+      "paragraph-018cb92c643fa715",
+      "paragraph-b1e39024657185fa",
+      "paragraph-d37635bc46130730"
+    ],
+    "context_chars": 2768,
+    "database_elapsed_ms": 2.587400000265916,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "context_repacked_offline": true
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "Chỉ dẫn địa lý cho biết điều gì về sản phẩm?",
+    "strategy": "dense_pgvector",
+    "database_strategy": "B",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "gold": [
+      {
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "page": 6,
+        "evidence": "Chỉ dẫn địa lý là dấu hiệu dùng để chỉ nguồn gốc địa lý của sản phẩm từ khu vực, địa phương, vùng lãnh thổ hoặc quốc gia cụ thể."
+      }
+    ],
+    "filter": null,
+    "results": [
+      {
+        "id": "paragraph-018cb92c643fa715",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 5,
+        "text": "13.14 Kiểu dáng công nghiệp là hình dáng bên ngoài của sản phẩm hoặc bộ\nphận để lắp ráp thành sản phẩm phức hợp, được thể hiện bằng hình khối, đường\nnét, màu sắc hoặc sự kết hợp những yếu tố này và nhìn thấy được trong quá trình\nkhai thác công dụng của sản phẩm hoặc sản phẩm phức hợp.\n\n14. Mạch tích hợp bán dẫn là sản phẩm dưới dạng thành phẩm hoặc bán\nthành phẩm, trong đó các phần tử với ít nhất một phần tử tích cực và một số hoặc\ntất cả các mối liên kết được gắn liền bên trong hoặc bên trên tấm vật liệu bán dẫn\nnhằm thực hiện chức năng điện tử. Mạch tích hợp đồng nghĩa với IC, chip và\nmạch vi điện tử.\n\n15. Thiết kế bố trí mạch tích hợp bán dẫn (sau đây gọi là thiết kế bố trí) là\ncấu trúc không gian của các phần tử mạch và mối liên kết các phần tử đó trong\nmạch tích hợp bán dẫn.\n\n16. Nhãn hiệu là dấu hiệu dùng để phân biệt hàng hóa, dịch vụ của các tổ\nchức, cá nhân khác nhau.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ nhất",
+          "unit_id": "pdf_page_005",
+          "article_end": null,
+          "chunk_index": 0,
+          "article_start": null,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2516,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.45221246181218944,
+        "hit": false
+      },
+      {
+        "id": "paragraph-0cde19ed10b7b47b",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 6,
+        "text": "22.17 Chỉ dẫn địa lý là dấu hiệu dùng để chỉ nguồn gốc địa lý của sản phẩm\ntừ khu vực, địa phương, vùng lãnh thổ hoặc quốc gia cụ thể.\n22a.18 Chỉ dẫn địa lý đồng âm là các chỉ dẫn địa lý có cách phát âm hoặc\ncách viết trùng nhau.\n\n23. Bí mật kinh doanh là thông tin thu được từ hoạt động đầu tư tài chính, trí\ntuệ, chưa được bộc lộ và có khả năng sử dụng trong kinh doanh.\n\n24. Giống cây trồng là quần thể cây trồng thuộc cùng một cấp phân loại thực\nvật thấp nhất, đồng nhất về hình thái, ổn định qua các chu kỳ nhân giống, có thể\nnhận biết được bằng sự biểu hiện các tính trạng do kiểu gen hoặc sự phối hợp của\ncác kiểu gen quy định và phân biệt đư ợc với bất kỳ quần thể cây trồng nào khác\nbằng sự biểu hiện của ít nhất một tính trạng có khả năng di truyền được.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ nhất",
+          "unit_id": "pdf_page_006",
+          "article_end": 6,
+          "chunk_index": 0,
+          "article_start": 5,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2411,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.44232285120658155,
+        "hit": true
+      },
+      {
+        "id": "paragraph-d37635bc46130730",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 7,
+        "text": "a)20 Quyền sở hữu công nghiệp đối với sáng chế, kiểu dáng công nghiệp,\nthiết kế bố trí, nhãn hiệu được xác lập trên cơ sở quyết định cấp văn bằng bảo hộ\ncủa cơ quan nhà nước có thẩm quyền theo thủ tục đăng ký quy định tại Luật này\nhoặc công nhận đăng ký quốc tế theo điều ước quốc tế mà Cộng hòa xã hội chủ\nnghĩa Việt Nam là thành viên.\nQuyền sở hữu công nghiệp đối với nhãn hiệu nổi tiếng được xác lập trên cơ\nsở sử dụng, không phụ thuộc vào thủ tục đăng ký.\nQuyền sở hữu công nghiệp đối với chỉ dẫn địa lý được xác lập trên cơ sở\nquyết định cấp văn bằng bảo hộ của cơ quan nhà nước có thẩm quyền theo thủ tục\nđăng ký quy định tại Luật này hoặc theo điều ước quốc tế mà Cộng hòa xã hội\nchủ nghĩa Việt Nam là thành viên;\n\nb) Quyền sở hữu công nghiệp đối với tên thương mại được xác lập trên cơ\nsở sử dụng hợp pháp tên thương mại đó;",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ nhất",
+          "unit_id": "pdf_page_007",
+          "article_end": 7,
+          "chunk_index": 0,
+          "article_start": 7,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2706,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.33373047635288156,
+        "hit": false
+      }
+    ],
+    "context": "[paragraph-018cb92c643fa715 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 5]\n13.14 Kiểu dáng công nghiệp là hình dáng bên ngoài của sản phẩm hoặc bộ\nphận để lắp ráp thành sản phẩm phức hợp, được thể hiện bằng hình khối, đường\nnét, màu sắc hoặc sự kết hợp những yếu tố này và nhìn thấy được trong quá trình\nkhai thác công dụng của sản phẩm hoặc sản phẩm phức hợp.\n\n14. Mạch tích hợp bán dẫn là sản phẩm dưới dạng thành phẩm hoặc bán\nthành phẩm, trong đó các phần tử với ít nhất một phần tử tích cực và một số hoặc\ntất cả các mối liên kết được gắn liền bên trong hoặc bên trên tấm vật liệu bán dẫn\nnhằm thực hiện chức năng điện tử. Mạch tích hợp đồng nghĩa với IC, chip và\nmạch vi điện tử.\n\n15. Thiết kế bố trí mạch tích hợp bán dẫn (sau đây gọi là thiết kế bố trí) là\ncấu trúc không gian của các phần tử mạch và mối liên kết các phần tử đó trong\nmạch tích hợp bán dẫn.\n\n16. Nhãn hiệu là dấu hiệu dùng để phân biệt hàng hóa, dịch vụ của các tổ\nchức, cá nhân khác nhau.\n\n[paragraph-0cde19ed10b7b47b | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 6]\n22.17 Chỉ dẫn địa lý là dấu hiệu dùng để chỉ nguồn gốc địa lý của sản phẩm\ntừ khu vực, địa phương, vùng lãnh thổ hoặc quốc gia cụ thể.\n22a.18 Chỉ dẫn địa lý đồng âm là các chỉ dẫn địa lý có cách phát âm hoặc\ncách viết trùng nhau.\n\n23. Bí mật kinh doanh là thông tin thu được từ hoạt động đầu tư tài chính, trí\ntuệ, chưa được bộc lộ và có khả năng sử dụng trong kinh doanh.\n\n24. Giống cây trồng là quần thể cây trồng thuộc cùng một cấp phân loại thực\nvật thấp nhất, đồng nhất về hình thái, ổn định qua các chu kỳ nhân giống, có thể\nnhận biết được bằng sự biểu hiện các tính trạng do kiểu gen hoặc sự phối hợp của\ncác kiểu gen quy định và phân biệt đư ợc với bất kỳ quần thể cây trồng nào khác\nbằng sự biểu hiện của ít nhất một tính trạng có khả năng di truyền được.\n\n[paragraph-d37635bc46130730 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 7]\na)20 Quyền sở hữu công nghiệp đối với sáng chế, kiểu dáng công nghiệp,\nthiết kế bố trí, nhãn hiệu được xác lập trên cơ sở quyết định cấp văn bằng bảo hộ\ncủa cơ quan nhà nước có thẩm quyền theo thủ tục đăng ký quy định tại Luật này\nhoặc công nhận đăng ký quốc tế theo điều ước quốc tế mà Cộng hòa xã hội chủ\nnghĩa Việt Nam là thành viên.\nQuyền sở hữu công nghiệp đối với nhãn hiệu nổi tiếng được xác lập trên cơ\nsở sử dụng, không phụ thuộc vào thủ tục đăng ký.\nQuyền sở hữu công nghiệp đối với chỉ dẫn địa lý được xác lập trên cơ sở\nquyết định cấp văn bằng bảo hộ của cơ quan nhà nước có thẩm quyền theo thủ tục\nđăng ký quy định tại Luật này hoặc theo điều ước quốc tế mà Cộng hòa xã hội\nchủ nghĩa Việt Nam là thành viên;\n\nb) Quyền sở hữu công nghiệp đối với tên thương mại được xác lập trên cơ\nsở sử dụng hợp pháp tên thương mại đó;",
+    "context_ids": [
+      "paragraph-018cb92c643fa715",
+      "paragraph-0cde19ed10b7b47b",
+      "paragraph-d37635bc46130730"
+    ],
+    "context_chars": 2816,
+    "database_elapsed_ms": 5.105800000819727,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "context_repacked_offline": true
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Quyền tác giả phát sinh từ thời điểm nào, và việc đăng ký có phải điều kiện bắt buộc không?",
+    "strategy": "dense_pgvector",
+    "database_strategy": "B",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "gold": [
+      {
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "page": 6,
+        "evidence": "Quyền tác giả phát sinh kể từ khi tác phẩm được sáng tạo và được thể hiện dưới một hình thức vật chất nhất định, không phân biệt nội dung, chất lượng, hình thức, phương tiện, ngôn ngữ, đã công bố hay chưa công bố, đã đăng ký hay chưa đăng ký."
+      }
+    ],
+    "filter": null,
+    "results": [
+      {
+        "id": "paragraph-b173f1ac5575f41b",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 6,
+        "text": "25. Văn bằng bảo hộ là văn bản do cơ quan nhà nước có thẩm quyền cấp cho\ntổ chức, cá nhân nhằm xác lập quyền sở hữu công nghiệp đối với sáng chế, kiểu\ndáng công nghiệp, thiết kế bố trí, nhãn hiệu, chỉ dẫn địa lý; quyền đối với giống\ncây trồng.\n\n26. Vật liệu nhân giống là cây hoặc bộ phận của cây có khả năng phát triển\nthành một cây mới dùng để nhân giống hoặc để gieo trồng.\n\n27. Vật liệu thu hoạch là cây hoặc bộ phận của cây thu được từ việc gieo\ntrồng vật liệu nhân giống.\n\nĐiều 5.19 (được bãi bỏ)\n\nĐiều 6. Căn cứ phát sinh, xác lập quyền sở hữu trí tuệ\n\n1. Quyền tác giả phát sinh kể từ khi tác phẩm được sáng tạo và được thể hiện\ndưới một hình thức vật chất nhất định, không phân biệt nội dung, chất lượng, hình\nthức, phương tiện, ngôn ngữ, đã công bố hay chưa công bố, đã đăng ký hay chưa\nđăng ký.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ nhất",
+          "unit_id": "pdf_page_006",
+          "article_end": 6,
+          "chunk_index": 1,
+          "article_start": 5,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2411,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6546389065831278,
+        "hit": true
+      },
+      {
+        "id": "paragraph-c4aa842187c40dd5",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 13,
+        "text": "được bảo hộ nếu thuộc một trong các trường hợp sau đây:\na) Chương trình phát sóng, tín hiệu vệ tinh mang chương trình được mã hóa\ncủa tổ chức phát sóng có quốc tịch Việt Nam;\nb) Chương trình phát sóng, tín hiệu vệ tinh mang chương trình được mã hóa\ncủa tổ chức phát sóng được bảo hộ theo điều ước quốc tế mà Cộng hòa xã hội chủ\nnghĩa Việt Nam là thành viên.\n4. Cuộc biểu diễn, bản ghi âm, ghi hình, chương trình phát sóng, tín hiệu vệ\ntinh mang chương trình được mã hóa chỉ được bảo hộ theo quy định tại các khoản\n1, 2 và 3 Điều này với điều kiện không gây phương hại đến quyền tác giả.\n\nChương II\nNỘI DUNG, GIỚI HẠN QUYỀN, THỜI HẠN BẢO HỘ\nQUYỀN TÁC GIẢ, QUYỀN LIÊN QUAN\nMục 1\nNỘI DUNG, GIỚI HẠN QUYỀN, THỜI HẠN BẢO HỘ\nQUYỀN TÁC GIẢ\n\nĐiều 18. Quyền tác giả\nQuyền tác giả đối với tác phẩm quy định tại Luật này bao gồm quyền nhân\nthân và quyền tài sản.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_013",
+          "article_end": 19,
+          "chunk_index": 0,
+          "article_start": 18,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 1649,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5393584561661235,
+        "hit": false
+      },
+      {
+        "id": "paragraph-22048fa3c96a6ec7",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 10,
+        "text": "Điều 12a. Tác giả, đồng tác giả30\n1. Tác giả là người trực tiếp sáng tạo tác phẩm. Trường hợp có từ hai người\ntrở lên cùng trực tiếp sáng tạo tác phẩm với chủ ý là sự đóng góp của họ được kết\nhợp thành một tổng thể hoàn chỉnh thì những người đó là các đồng tác giả.\n2. Người hỗ trợ, góp ý kiến hoặc cung cấp tư liệu cho người khác sáng tạo\ntác phẩm không phải là tác giả, đồng tác giả.\n3. Việc thực hiện quyền nhân thân và quyền tài sản đối với tác phẩm có đồng\ntác giả phải có sự thỏa thuận của các đồng tác giả, trừ trường hợp tác phẩm có\nphần riêng biệt có thể tách ra sử dụng độc lập mà không làm phương hại đến phần\ncủa các đồng tác giả khác hoặc luật khác có quy định khác.\n\nĐiều 13. Tác giả, chủ sở hữu quyền tác giả có tác phẩm được bảo hộ\nquyền tác giả\n\n1. Tổ chức, cá nhân có tác phẩm được bảo hộ quyền tác giả gồm người trực\ntiếp sáng tạo ra tác phẩm và chủ sở hữu quyền tác giả quy định tại các điều từ\nĐiều 37 đến Điều 42 của Luật này.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_010",
+          "article_end": 13,
+          "chunk_index": 1,
+          "article_start": 12,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2358,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5357928255462681,
+        "hit": false
+      }
+    ],
+    "context": "[paragraph-b173f1ac5575f41b | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 6]\n25. Văn bằng bảo hộ là văn bản do cơ quan nhà nước có thẩm quyền cấp cho\ntổ chức, cá nhân nhằm xác lập quyền sở hữu công nghiệp đối với sáng chế, kiểu\ndáng công nghiệp, thiết kế bố trí, nhãn hiệu, chỉ dẫn địa lý; quyền đối với giống\ncây trồng.\n\n26. Vật liệu nhân giống là cây hoặc bộ phận của cây có khả năng phát triển\nthành một cây mới dùng để nhân giống hoặc để gieo trồng.\n\n27. Vật liệu thu hoạch là cây hoặc bộ phận của cây thu được từ việc gieo\ntrồng vật liệu nhân giống.\n\nĐiều 5.19 (được bãi bỏ)\n\nĐiều 6. Căn cứ phát sinh, xác lập quyền sở hữu trí tuệ\n\n1. Quyền tác giả phát sinh kể từ khi tác phẩm được sáng tạo và được thể hiện\ndưới một hình thức vật chất nhất định, không phân biệt nội dung, chất lượng, hình\nthức, phương tiện, ngôn ngữ, đã công bố hay chưa công bố, đã đăng ký hay chưa\nđăng ký.\n\n[paragraph-c4aa842187c40dd5 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 13]\nđược bảo hộ nếu thuộc một trong các trường hợp sau đây:\na) Chương trình phát sóng, tín hiệu vệ tinh mang chương trình được mã hóa\ncủa tổ chức phát sóng có quốc tịch Việt Nam;\nb) Chương trình phát sóng, tín hiệu vệ tinh mang chương trình được mã hóa\ncủa tổ chức phát sóng được bảo hộ theo điều ước quốc tế mà Cộng hòa xã hội chủ\nnghĩa Việt Nam là thành viên.\n4. Cuộc biểu diễn, bản ghi âm, ghi hình, chương trình phát sóng, tín hiệu vệ\ntinh mang chương trình được mã hóa chỉ được bảo hộ theo quy định tại các khoản\n1, 2 và 3 Điều này với điều kiện không gây phương hại đến quyền tác giả.\n\nChương II\nNỘI DUNG, GIỚI HẠN QUYỀN, THỜI HẠN BẢO HỘ\nQUYỀN TÁC GIẢ, QUYỀN LIÊN QUAN\nMục 1\nNỘI DUNG, GIỚI HẠN QUYỀN, THỜI HẠN BẢO HỘ\nQUYỀN TÁC GIẢ\n\nĐiều 18. Quyền tác giả\nQuyền tác giả đối với tác phẩm quy định tại Luật này bao gồm quyền nhân\nthân và quyền tài sản.\n\n[paragraph-22048fa3c96a6ec7 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 10]\nĐiều 12a. Tác giả, đồng tác giả30\n1. Tác giả là người trực tiếp sáng tạo tác phẩm. Trường hợp có từ hai người\ntrở lên cùng trực tiếp sáng tạo tác phẩm với chủ ý là sự đóng góp của họ được kết\nhợp thành một tổng thể hoàn chỉnh thì những người đó là các đồng tác giả.\n2. Người hỗ trợ, góp ý kiến hoặc cung cấp tư liệu cho người khác sáng tạo\ntác phẩm không phải là tác giả, đồng tác giả.\n3. Việc thực hiện quyền nhân thân và quyền tài sản đối với tác phẩm có đồng\ntác giả phải có sự thỏa thuận của các đồng tác giả, trừ trường hợp tác phẩm có\nphần riêng biệt có thể tách ra sử dụng độc lập mà không làm phương hại đến phần\ncủa các đồng tác giả khác hoặc luật khác có quy định khác.\n\nĐiều 13. Tác giả, chủ sở hữu quyền tác giả có tác phẩm được bảo hộ\nquyền tác giả\n\n1. Tổ chức, cá nhân có tác phẩm được bảo hộ quyền tác giả gồm người trực\ntiếp sáng tạo ra tác phẩm và chủ sở hữu quyền tác giả quy định tại các điều từ\nĐiều 37 đến Điều 42 của Luật này.",
+    "context_ids": [
+      "paragraph-b173f1ac5575f41b",
+      "paragraph-c4aa842187c40dd5",
+      "paragraph-22048fa3c96a6ec7"
+    ],
+    "context_chars": 2937,
+    "database_elapsed_ms": 2.632299998367671,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "context_repacked_offline": true
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Quyền sở hữu công nghiệp đối với nhãn hiệu nổi tiếng được xác lập dựa trên cơ sở nào?",
+    "strategy": "dense_pgvector",
+    "database_strategy": "B",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "gold": [
+      {
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "page": 7,
+        "evidence": "Quyền sở hữu công nghiệp đối với nhãn hiệu nổi tiếng được xác lập trên cơ sở sử dụng, không phụ thuộc vào thủ tục đăng ký."
+      }
+    ],
+    "filter": null,
+    "results": [
+      {
+        "id": "paragraph-d37635bc46130730",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 7,
+        "text": "a)20 Quyền sở hữu công nghiệp đối với sáng chế, kiểu dáng công nghiệp,\nthiết kế bố trí, nhãn hiệu được xác lập trên cơ sở quyết định cấp văn bằng bảo hộ\ncủa cơ quan nhà nước có thẩm quyền theo thủ tục đăng ký quy định tại Luật này\nhoặc công nhận đăng ký quốc tế theo điều ước quốc tế mà Cộng hòa xã hội chủ\nnghĩa Việt Nam là thành viên.\nQuyền sở hữu công nghiệp đối với nhãn hiệu nổi tiếng được xác lập trên cơ\nsở sử dụng, không phụ thuộc vào thủ tục đăng ký.\nQuyền sở hữu công nghiệp đối với chỉ dẫn địa lý được xác lập trên cơ sở\nquyết định cấp văn bằng bảo hộ của cơ quan nhà nước có thẩm quyền theo thủ tục\nđăng ký quy định tại Luật này hoặc theo điều ước quốc tế mà Cộng hòa xã hội\nchủ nghĩa Việt Nam là thành viên;\n\nb) Quyền sở hữu công nghiệp đối với tên thương mại được xác lập trên cơ\nsở sử dụng hợp pháp tên thương mại đó;",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ nhất",
+          "unit_id": "pdf_page_007",
+          "article_end": 7,
+          "chunk_index": 0,
+          "article_start": 7,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2706,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6982371073045628,
+        "hit": true
+      },
+      {
+        "id": "paragraph-b1e39024657185fa",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 5,
+        "text": "17. Nhãn hiệu tập thể là nhãn hiệu dùng để phân biệt hàng hóa, dịch vụ của\ncác thành viên của tổ chức là chủ sở hữu nhãn hiệu đó với hàng hóa, dịch vụ của\ntổ chức, cá nhân không phải là thành viên của tổ chức đó.\n\n18. Nhãn hiệu chứng nhận là nhãn hiệu mà chủ sở hữu nhãn hiệu cho phép\ntổ chức, cá nhân khác sử dụng trên hàng hóa, dịch vụ của tổ chức, cá nhân đó để\nchứng nhận các đặc tính về xuất xứ, nguyên liệu, vật liệu, cách thức sản xuất hàng\nhóa, cách thức cung cấp dịch vụ, chất lượng, độ chính xác, độ an toàn hoặc các\nđặc tính khác của hàng hóa, dịch vụ mang nhãn hiệu.\n19.15 (được bãi bỏ)\n20.16 Nhãn hiệu nổi tiếng là nhãn hiệu được bộ phận công chúng có liên quan\nbiết đến rộng rãi trên lãnh thổ Việt Nam.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ nhất",
+          "unit_id": "pdf_page_005",
+          "article_end": null,
+          "chunk_index": 1,
+          "article_start": null,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2516,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5406175667332233,
+        "hit": false
+      },
+      {
+        "id": "paragraph-e2885b0a281384bd",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 7,
+        "text": "c) Quyền sở hữu công nghiệp đối với bí mật kinh doanh được xác lập trên cơ\nsở có được một cách hợp pháp bí mật kinh doanh và thực hiện việc bảo m ật bí\nmật kinh doanh đó;\n\nd) Quyền chống cạnh tranh không lành mạnh được xác lập trên cơ sở hoạt\nđộng cạnh tranh trong kinh doanh.\n\n4. Quyền đối với giống cây trồng được xác lập trên cơ sở quyết định cấp\nBằng bảo hộ giống cây trồng của cơ quan nhà nước có t hẩm quyền theo thủ tục\nđăng ký quy định tại Luật này.\n\nĐiều 7. Giới hạn quyền sở hữu trí tuệ21",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ nhất",
+          "unit_id": "pdf_page_007",
+          "article_end": 7,
+          "chunk_index": 1,
+          "article_start": 7,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2706,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5281248953345113,
+        "hit": false
+      }
+    ],
+    "context": "[paragraph-d37635bc46130730 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 7]\na)20 Quyền sở hữu công nghiệp đối với sáng chế, kiểu dáng công nghiệp,\nthiết kế bố trí, nhãn hiệu được xác lập trên cơ sở quyết định cấp văn bằng bảo hộ\ncủa cơ quan nhà nước có thẩm quyền theo thủ tục đăng ký quy định tại Luật này\nhoặc công nhận đăng ký quốc tế theo điều ước quốc tế mà Cộng hòa xã hội chủ\nnghĩa Việt Nam là thành viên.\nQuyền sở hữu công nghiệp đối với nhãn hiệu nổi tiếng được xác lập trên cơ\nsở sử dụng, không phụ thuộc vào thủ tục đăng ký.\nQuyền sở hữu công nghiệp đối với chỉ dẫn địa lý được xác lập trên cơ sở\nquyết định cấp văn bằng bảo hộ của cơ quan nhà nước có thẩm quyền theo thủ tục\nđăng ký quy định tại Luật này hoặc theo điều ước quốc tế mà Cộng hòa xã hội\nchủ nghĩa Việt Nam là thành viên;\n\nb) Quyền sở hữu công nghiệp đối với tên thương mại được xác lập trên cơ\nsở sử dụng hợp pháp tên thương mại đó;\n\n[paragraph-b1e39024657185fa | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 5]\n17. Nhãn hiệu tập thể là nhãn hiệu dùng để phân biệt hàng hóa, dịch vụ của\ncác thành viên của tổ chức là chủ sở hữu nhãn hiệu đó với hàng hóa, dịch vụ của\ntổ chức, cá nhân không phải là thành viên của tổ chức đó.\n\n18. Nhãn hiệu chứng nhận là nhãn hiệu mà chủ sở hữu nhãn hiệu cho phép\ntổ chức, cá nhân khác sử dụng trên hàng hóa, dịch vụ của tổ chức, cá nhân đó để\nchứng nhận các đặc tính về xuất xứ, nguyên liệu, vật liệu, cách thức sản xuất hàng\nhóa, cách thức cung cấp dịch vụ, chất lượng, độ chính xác, độ an toàn hoặc các\nđặc tính khác của hàng hóa, dịch vụ mang nhãn hiệu.\n19.15 (được bãi bỏ)\n20.16 Nhãn hiệu nổi tiếng là nhãn hiệu được bộ phận công chúng có liên quan\nbiết đến rộng rãi trên lãnh thổ Việt Nam.\n\n[paragraph-e2885b0a281384bd | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 7]\nc) Quyền sở hữu công nghiệp đối với bí mật kinh doanh được xác lập trên cơ\nsở có được một cách hợp pháp bí mật kinh doanh và thực hiện việc bảo m ật bí\nmật kinh doanh đó;\n\nd) Quyền chống cạnh tranh không lành mạnh được xác lập trên cơ sở hoạt\nđộng cạnh tranh trong kinh doanh.\n\n4. Quyền đối với giống cây trồng được xác lập trên cơ sở quyết định cấp\nBằng bảo hộ giống cây trồng của cơ quan nhà nước có t hẩm quyền theo thủ tục\nđăng ký quy định tại Luật này.\n\nĐiều 7. Giới hạn quyền sở hữu trí tuệ21",
+    "context_ids": [
+      "paragraph-d37635bc46130730",
+      "paragraph-b1e39024657185fa",
+      "paragraph-e2885b0a281384bd"
+    ],
+    "context_chars": 2377,
+    "database_elapsed_ms": 2.7113000014651334,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "context_repacked_offline": true
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "Trong danh sách đối tượng không được bảo hộ quyền tác giả, những thứ nào được nêu ở khoản 3?",
+    "strategy": "dense_pgvector",
+    "database_strategy": "B",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "gold": [
+      {
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "page": 12,
+        "evidence": "3. Quy trình, hệ thống, phương pháp hoạt động, khái niệm, nguyên lý, số liệu."
+      }
+    ],
+    "filter": null,
+    "results": [
+      {
+        "id": "paragraph-d70cc4d18f4c18f3",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 11,
+        "text": "Điều 15. Các đối tượng không thuộc phạm vi bảo hộ quyền tác giả\n1. Tin tức thời sự thuần tuý đưa tin.\n2. Văn bản quy phạm pháp luật, văn bản hành chính, văn bản khác thuộc lĩnh\nvực tư pháp và bản dịch chính thức của văn bản đó.\n\n31 Điều này được sử a đổi, bổ sung theo quy định tại khoản 5 Điều 1 của Luật số\n36/2009/QH12 sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ, có hiệu lực kể từ ngày 01\ntháng 01 năm 2010.\n32 Cụm từ “tác phẩm tạo hình” được thay thế bằng cụm từ “tác phẩm mỹ thuật” theo quy\nđịnh tại điểm a khoản 82 Điều 1 của Luật số 07/2022/QH15 sửa đổi, bổ sung một số điều của\nLuật Sở hữu trí tuệ, có hiệu lực kể từ ngày 01 tháng 01 năm 2023.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_011",
+          "article_end": 15,
+          "chunk_index": 2,
+          "article_start": 14,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 1961,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5902182307501229,
+        "hit": false
+      },
+      {
+        "id": "paragraph-5fa9e298c4ca333b",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 12,
+        "text": "3. Quy trình, hệ thống, phương pháp hoạt động, khái niệm, nguyên lý, số liệu.\n\nMục 2\nĐIỀU KIỆN BẢO HỘ QUYỀN LIÊN QUAN\n\nĐiều 16. Tổ chức, cá nhân được bảo hộ quyền liên quan\n1. Diễn viên, ca sĩ, nhạc công, vũ công và những người khác trình bày tác\nphẩm văn học, nghệ thuật (sau đây gọi chung là người biểu diễn).\n2. Tổ chức, cá nhân là chủ sở hữu quyền liên quan33 quy định tại34 Điều 44\ncủa Luật này.\n3. Tổ chức, cá nhân định hình lần đầu âm thanh, hình ảnh của cuộc biểu diễn\nhoặc các âm thanh , hình ảnh khác (sau đây gọi là nhà sản xuất bản ghi âm, ghi\nhình).\n4. Tổ chức khởi xướng và thực hiện việc phát sóng (sau đây gọi là tổ chức\nphát sóng).\n\nĐiều 17. Các đối tượng quyền liên quan được bảo hộ\n\n1. Cuộc biểu diễn được bảo hộ nếu thuộc một trong các trường hợp sau đây:\n\na) Cuộc biểu diễn do công dân Việt Nam thực hiện tại Việt Nam hoặc nước\nngoài;\n\nb) Cuộc biểu diễn do người nước ngoài thực hiện tại Việt Nam;",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_012",
+          "article_end": 17,
+          "chunk_index": 0,
+          "article_start": 16,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2089,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5646386165606626,
+        "hit": true
+      },
+      {
+        "id": "paragraph-22048fa3c96a6ec7",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 10,
+        "text": "Điều 12a. Tác giả, đồng tác giả30\n1. Tác giả là người trực tiếp sáng tạo tác phẩm. Trường hợp có từ hai người\ntrở lên cùng trực tiếp sáng tạo tác phẩm với chủ ý là sự đóng góp của họ được kết\nhợp thành một tổng thể hoàn chỉnh thì những người đó là các đồng tác giả.\n2. Người hỗ trợ, góp ý kiến hoặc cung cấp tư liệu cho người khác sáng tạo\ntác phẩm không phải là tác giả, đồng tác giả.\n3. Việc thực hiện quyền nhân thân và quyền tài sản đối với tác phẩm có đồng\ntác giả phải có sự thỏa thuận của các đồng tác giả, trừ trường hợp tác phẩm có\nphần riêng biệt có thể tách ra sử dụng độc lập mà không làm phương hại đến phần\ncủa các đồng tác giả khác hoặc luật khác có quy định khác.\n\nĐiều 13. Tác giả, chủ sở hữu quyền tác giả có tác phẩm được bảo hộ\nquyền tác giả\n\n1. Tổ chức, cá nhân có tác phẩm được bảo hộ quyền tác giả gồm người trực\ntiếp sáng tạo ra tác phẩm và chủ sở hữu quyền tác giả quy định tại các điều từ\nĐiều 37 đến Điều 42 của Luật này.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_010",
+          "article_end": 13,
+          "chunk_index": 1,
+          "article_start": 12,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2358,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5609326465126013,
+        "hit": false
+      }
+    ],
+    "context": "[paragraph-d70cc4d18f4c18f3 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 11]\nĐiều 15. Các đối tượng không thuộc phạm vi bảo hộ quyền tác giả\n1. Tin tức thời sự thuần tuý đưa tin.\n2. Văn bản quy phạm pháp luật, văn bản hành chính, văn bản khác thuộc lĩnh\nvực tư pháp và bản dịch chính thức của văn bản đó.\n\n31 Điều này được sử a đổi, bổ sung theo quy định tại khoản 5 Điều 1 của Luật số\n36/2009/QH12 sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ, có hiệu lực kể từ ngày 01\ntháng 01 năm 2010.\n32 Cụm từ “tác phẩm tạo hình” được thay thế bằng cụm từ “tác phẩm mỹ thuật” theo quy\nđịnh tại điểm a khoản 82 Điều 1 của Luật số 07/2022/QH15 sửa đổi, bổ sung một số điều của\nLuật Sở hữu trí tuệ, có hiệu lực kể từ ngày 01 tháng 01 năm 2023.\n\n[paragraph-5fa9e298c4ca333b | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 12]\n3. Quy trình, hệ thống, phương pháp hoạt động, khái niệm, nguyên lý, số liệu.\n\nMục 2\nĐIỀU KIỆN BẢO HỘ QUYỀN LIÊN QUAN\n\nĐiều 16. Tổ chức, cá nhân được bảo hộ quyền liên quan\n1. Diễn viên, ca sĩ, nhạc công, vũ công và những người khác trình bày tác\nphẩm văn học, nghệ thuật (sau đây gọi chung là người biểu diễn).\n2. Tổ chức, cá nhân là chủ sở hữu quyền liên quan33 quy định tại34 Điều 44\ncủa Luật này.\n3. Tổ chức, cá nhân định hình lần đầu âm thanh, hình ảnh của cuộc biểu diễn\nhoặc các âm thanh , hình ảnh khác (sau đây gọi là nhà sản xuất bản ghi âm, ghi\nhình).\n4. Tổ chức khởi xướng và thực hiện việc phát sóng (sau đây gọi là tổ chức\nphát sóng).\n\nĐiều 17. Các đối tượng quyền liên quan được bảo hộ\n\n1. Cuộc biểu diễn được bảo hộ nếu thuộc một trong các trường hợp sau đây:\n\na) Cuộc biểu diễn do công dân Việt Nam thực hiện tại Việt Nam hoặc nước\nngoài;\n\nb) Cuộc biểu diễn do người nước ngoài thực hiện tại Việt Nam;\n\n[paragraph-22048fa3c96a6ec7 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 10]\nĐiều 12a. Tác giả, đồng tác giả30\n1. Tác giả là người trực tiếp sáng tạo tác phẩm. Trường hợp có từ hai người\ntrở lên cùng trực tiếp sáng tạo tác phẩm với chủ ý là sự đóng góp của họ được kết\nhợp thành một tổng thể hoàn chỉnh thì những người đó là các đồng tác giả.\n2. Người hỗ trợ, góp ý kiến hoặc cung cấp tư liệu cho người khác sáng tạo\ntác phẩm không phải là tác giả, đồng tác giả.\n3. Việc thực hiện quyền nhân thân và quyền tài sản đối với tác phẩm có đồng\ntác giả phải có sự thỏa thuận của các đồng tác giả, trừ trường hợp tác phẩm có\nphần riêng biệt có thể tách ra sử dụng độc lập mà không làm phương hại đến phần\ncủa các đồng tác giả khác hoặc luật khác có quy định khác.\n\nĐiều 13. Tác giả, chủ sở hữu quyền tác giả có tác phẩm được bảo hộ\nquyền tác giả\n\n1. Tổ chức, cá nhân có tác phẩm được bảo hộ quyền tác giả gồm người trực\ntiếp sáng tạo ra tác phẩm và chủ sở hữu quyền tác giả quy định tại các điều từ\nĐiều 37 đến Điều 42 của Luật này.",
+    "context_ids": [
+      "paragraph-d70cc4d18f4c18f3",
+      "paragraph-5fa9e298c4ca333b",
+      "paragraph-22048fa3c96a6ec7"
+    ],
+    "context_chars": 2861,
+    "database_elapsed_ms": 2.7491000000736676,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "context_repacked_offline": true
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "Những nhóm chủ thể nào được Điều 16 nêu là được bảo hộ quyền liên quan?",
+    "strategy": "dense_pgvector",
+    "database_strategy": "B",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "gold": [
+      {
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "page": 12,
+        "evidence": "1. Diễn viên, ca sĩ, nhạc công, vũ công và những người khác trình bày tác phẩm văn học, nghệ thuật (sau đây gọi chung là người biểu diễn). 2. Tổ chức, cá nhân là chủ sở hữu quyền liên quan33 quy định tại34 Điều 44 của Luật này. 3. Tổ chức, cá nhân định hình lần đầu âm thanh, hình ảnh của cuộc biểu diễn hoặc các âm thanh , hình ảnh khác (sau đây gọi là nhà sản xuất bản ghi âm, ghi hình). 4. Tổ chức khởi xướng và thực hiện việc phát sóng (sau đây gọi là tổ chức phát sóng)."
+      }
+    ],
+    "filter": null,
+    "results": [
+      {
+        "id": "paragraph-5fa9e298c4ca333b",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 12,
+        "text": "3. Quy trình, hệ thống, phương pháp hoạt động, khái niệm, nguyên lý, số liệu.\n\nMục 2\nĐIỀU KIỆN BẢO HỘ QUYỀN LIÊN QUAN\n\nĐiều 16. Tổ chức, cá nhân được bảo hộ quyền liên quan\n1. Diễn viên, ca sĩ, nhạc công, vũ công và những người khác trình bày tác\nphẩm văn học, nghệ thuật (sau đây gọi chung là người biểu diễn).\n2. Tổ chức, cá nhân là chủ sở hữu quyền liên quan33 quy định tại34 Điều 44\ncủa Luật này.\n3. Tổ chức, cá nhân định hình lần đầu âm thanh, hình ảnh của cuộc biểu diễn\nhoặc các âm thanh , hình ảnh khác (sau đây gọi là nhà sản xuất bản ghi âm, ghi\nhình).\n4. Tổ chức khởi xướng và thực hiện việc phát sóng (sau đây gọi là tổ chức\nphát sóng).\n\nĐiều 17. Các đối tượng quyền liên quan được bảo hộ\n\n1. Cuộc biểu diễn được bảo hộ nếu thuộc một trong các trường hợp sau đây:\n\na) Cuộc biểu diễn do công dân Việt Nam thực hiện tại Việt Nam hoặc nước\nngoài;\n\nb) Cuộc biểu diễn do người nước ngoài thực hiện tại Việt Nam;",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_012",
+          "article_end": 17,
+          "chunk_index": 0,
+          "article_start": 16,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2089,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5714051102958899,
+        "hit": true
+      },
+      {
+        "id": "paragraph-22048fa3c96a6ec7",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 10,
+        "text": "Điều 12a. Tác giả, đồng tác giả30\n1. Tác giả là người trực tiếp sáng tạo tác phẩm. Trường hợp có từ hai người\ntrở lên cùng trực tiếp sáng tạo tác phẩm với chủ ý là sự đóng góp của họ được kết\nhợp thành một tổng thể hoàn chỉnh thì những người đó là các đồng tác giả.\n2. Người hỗ trợ, góp ý kiến hoặc cung cấp tư liệu cho người khác sáng tạo\ntác phẩm không phải là tác giả, đồng tác giả.\n3. Việc thực hiện quyền nhân thân và quyền tài sản đối với tác phẩm có đồng\ntác giả phải có sự thỏa thuận của các đồng tác giả, trừ trường hợp tác phẩm có\nphần riêng biệt có thể tách ra sử dụng độc lập mà không làm phương hại đến phần\ncủa các đồng tác giả khác hoặc luật khác có quy định khác.\n\nĐiều 13. Tác giả, chủ sở hữu quyền tác giả có tác phẩm được bảo hộ\nquyền tác giả\n\n1. Tổ chức, cá nhân có tác phẩm được bảo hộ quyền tác giả gồm người trực\ntiếp sáng tạo ra tác phẩm và chủ sở hữu quyền tác giả quy định tại các điều từ\nĐiều 37 đến Điều 42 của Luật này.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_010",
+          "article_end": 13,
+          "chunk_index": 1,
+          "article_start": 12,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2358,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.4997730183718243,
+        "hit": false
+      },
+      {
+        "id": "paragraph-298a8fec986b7699",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 28,
+        "text": "đó giải mã trái phép hoặc chủ yếu để giúp cho việc giải mã trái phép tín hiệu vệ\ntinh mang chương trình được mã hóa.\n10. Cố ý thu hoặc tiếp tục phân phối tín hiệu vệ tinh mang chương trình được\nmã hóa khi tín hiệu đã được giải mã mà không được phép của người phân phối\nhợp pháp.\n11. Không thực hiện hoặc thực hiện không đầy đủ quy định để được miễn\ntrừ trách nhiệm pháp lý của doanh nghiệp cung cấp dịch vụ trung gian quy định\ntại khoản 3 Điều 198b của Luật này.\n\nChương III\nCHỦ SỞ HỮU QUYỀN TÁC GIẢ, QUYỀN LIÊN QUAN\n\nĐiều 36. Chủ sở hữu quyền tác giả50\nChủ sở hữu quyền tác giả là tổ chức, cá nhân nắm giữ một, một số hoặc toàn\nbộ quyền quy định tại khoản 3 Điều 19 và khoản 1 Điều 20 của Luật này.\n\nĐiều 37. Chủ sở hữu quyền tác giả là tác giả\nTác giả sử dụng thời gian, tài chính, cơ sở vật chất - kỹ thuật của mình để\nsáng tạo ra tác phẩm có các quyền nhân thân quy định tại Đ iều 19 và các quyền\ntài sản quy định tại Điều 20 của Luật này.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_028",
+          "article_end": 39,
+          "chunk_index": 0,
+          "article_start": 36,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2164,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.46676179412262897,
+        "hit": false
+      }
+    ],
+    "context": "[paragraph-5fa9e298c4ca333b | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 12]\n3. Quy trình, hệ thống, phương pháp hoạt động, khái niệm, nguyên lý, số liệu.\n\nMục 2\nĐIỀU KIỆN BẢO HỘ QUYỀN LIÊN QUAN\n\nĐiều 16. Tổ chức, cá nhân được bảo hộ quyền liên quan\n1. Diễn viên, ca sĩ, nhạc công, vũ công và những người khác trình bày tác\nphẩm văn học, nghệ thuật (sau đây gọi chung là người biểu diễn).\n2. Tổ chức, cá nhân là chủ sở hữu quyền liên quan33 quy định tại34 Điều 44\ncủa Luật này.\n3. Tổ chức, cá nhân định hình lần đầu âm thanh, hình ảnh của cuộc biểu diễn\nhoặc các âm thanh , hình ảnh khác (sau đây gọi là nhà sản xuất bản ghi âm, ghi\nhình).\n4. Tổ chức khởi xướng và thực hiện việc phát sóng (sau đây gọi là tổ chức\nphát sóng).\n\nĐiều 17. Các đối tượng quyền liên quan được bảo hộ\n\n1. Cuộc biểu diễn được bảo hộ nếu thuộc một trong các trường hợp sau đây:\n\na) Cuộc biểu diễn do công dân Việt Nam thực hiện tại Việt Nam hoặc nước\nngoài;\n\nb) Cuộc biểu diễn do người nước ngoài thực hiện tại Việt Nam;\n\n[paragraph-22048fa3c96a6ec7 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 10]\nĐiều 12a. Tác giả, đồng tác giả30\n1. Tác giả là người trực tiếp sáng tạo tác phẩm. Trường hợp có từ hai người\ntrở lên cùng trực tiếp sáng tạo tác phẩm với chủ ý là sự đóng góp của họ được kết\nhợp thành một tổng thể hoàn chỉnh thì những người đó là các đồng tác giả.\n2. Người hỗ trợ, góp ý kiến hoặc cung cấp tư liệu cho người khác sáng tạo\ntác phẩm không phải là tác giả, đồng tác giả.\n3. Việc thực hiện quyền nhân thân và quyền tài sản đối với tác phẩm có đồng\ntác giả phải có sự thỏa thuận của các đồng tác giả, trừ trường hợp tác phẩm có\nphần riêng biệt có thể tách ra sử dụng độc lập mà không làm phương hại đến phần\ncủa các đồng tác giả khác hoặc luật khác có quy định khác.\n\nĐiều 13. Tác giả, chủ sở hữu quyền tác giả có tác phẩm được bảo hộ\nquyền tác giả\n\n1. Tổ chức, cá nhân có tác phẩm được bảo hộ quyền tác giả gồm người trực\ntiếp sáng tạo ra tác phẩm và chủ sở hữu quyền tác giả quy định tại các điều từ\nĐiều 37 đến Điều 42 của Luật này.",
+    "context_ids": [
+      "paragraph-5fa9e298c4ca333b",
+      "paragraph-22048fa3c96a6ec7"
+    ],
+    "context_chars": 2088,
+    "database_elapsed_ms": 2.5460000015300466,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "context_repacked_offline": true
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Các quyền nhân thân của tác giả được liệt kê gồm những quyền nào?",
+    "strategy": "dense_pgvector",
+    "database_strategy": "B",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "gold": [
+      {
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "page": 13,
+        "evidence": "Quyền nhân thân bao gồm: 1. Đặt tên cho tác phẩm. Tác giả có quyền chuyển quyền sử dụng quyền đặt tên tác phẩm cho tổ chức, cá nhân nhận chuyển giao quyền tài sản quy định tại khoản 1 Điều 20 của Luật này; 2. Đứng tên thật hoặc bút danh trên tác phẩm; đượ c nêu tên thật hoặc bút danh khi tác phẩm được công bố, sử dụng; 3. Công bố tác phẩm hoặc cho phép người khác công bố tác phẩm; 4. Bảo vệ sự toàn vẹn của tác phẩm không cho người khác xuyên tạc; không cho người khác sửa đổi, cắt xén tác phẩm dưới bất kỳ hì nh thức nào gây phương hại đến danh dự và uy tín của tác giả."
+      }
+    ],
+    "filter": null,
+    "results": [
+      {
+        "id": "paragraph-b5fcfc18d77a9dd9",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 13,
+        "text": "Điều 19. Quyền nhân thân35\nQuyền nhân thân bao gồm:\n1. Đặt tên cho tác phẩm.\nTác giả có quyền chuyển quyền sử dụng quyền đặt tên tác phẩm cho tổ chức,\ncá nhân nhận chuyển giao quyền tài sản quy định tại khoản 1 Điều 20 của Luật này;\n2. Đứng tên thật hoặc bút danh trên tác phẩm; đượ c nêu tên thật hoặc bút\ndanh khi tác phẩm được công bố, sử dụng;\n3. Công bố tác phẩm hoặc cho phép người khác công bố tác phẩm;\n4. Bảo vệ sự toàn vẹn của tác phẩm không cho người khác xuyên tạc; không\ncho người khác sửa đổi, cắt xén tác phẩm dưới bất kỳ hì nh thức nào gây phương\nhại đến danh dự và uy tín của tác giả.\n\n35 Điều này được sửa đổi, bổ sung theo quy định tại khoản 5 Điều 1 của Luật số\n07/2022/QH15 sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ, có hiệu lực kể từ ngày 01\ntháng 01 năm 2023.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_013",
+          "article_end": 19,
+          "chunk_index": 1,
+          "article_start": 18,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 1649,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5797800595615304,
+        "hit": true
+      },
+      {
+        "id": "paragraph-22048fa3c96a6ec7",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 10,
+        "text": "Điều 12a. Tác giả, đồng tác giả30\n1. Tác giả là người trực tiếp sáng tạo tác phẩm. Trường hợp có từ hai người\ntrở lên cùng trực tiếp sáng tạo tác phẩm với chủ ý là sự đóng góp của họ được kết\nhợp thành một tổng thể hoàn chỉnh thì những người đó là các đồng tác giả.\n2. Người hỗ trợ, góp ý kiến hoặc cung cấp tư liệu cho người khác sáng tạo\ntác phẩm không phải là tác giả, đồng tác giả.\n3. Việc thực hiện quyền nhân thân và quyền tài sản đối với tác phẩm có đồng\ntác giả phải có sự thỏa thuận của các đồng tác giả, trừ trường hợp tác phẩm có\nphần riêng biệt có thể tách ra sử dụng độc lập mà không làm phương hại đến phần\ncủa các đồng tác giả khác hoặc luật khác có quy định khác.\n\nĐiều 13. Tác giả, chủ sở hữu quyền tác giả có tác phẩm được bảo hộ\nquyền tác giả\n\n1. Tổ chức, cá nhân có tác phẩm được bảo hộ quyền tác giả gồm người trực\ntiếp sáng tạo ra tác phẩm và chủ sở hữu quyền tác giả quy định tại các điều từ\nĐiều 37 đến Điều 42 của Luật này.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_010",
+          "article_end": 13,
+          "chunk_index": 1,
+          "article_start": 12,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2358,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.511333050514746,
+        "hit": false
+      },
+      {
+        "id": "paragraph-7c88cc4860a102b9",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 30,
+        "text": "người thừa kế; người thừa kế từ chối nhận di sản hoặc không được quyền hưởng\ndi sản.\n\n2. Nhà nước đại diện quản lý quyền tác giả, quyền liên quan trong các trường\nhợp sau đây:\n\na) Tác phẩm, cuộc biểu diễn, bản ghi âm, ghi hình, chương trình phát sóng\nmà không thể tìm được hoặc không xác định được chủ sở hữu quyền tác giả, chủ\nsở hữu quyền liên quan, đồng chủ sở hữu quyền tác giả, đồng chủ sở hữu quyền\nliên quan theo quy định của Luật này;\n\nb) Tác phẩm khuyết danh cho đến khi danh tính của tác giả, đồng tác giả,\nchủ sở hữu quyền tác giả, đồng chủ sở hữu quyền tác giả được xác định, trừ trường\nhợp quy định tại khoản 2 Điều 41 của Luật này.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_030",
+          "article_end": 43,
+          "chunk_index": 0,
+          "article_start": 43,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2320,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5022604014826371,
+        "hit": false
+      }
+    ],
+    "context": "[paragraph-b5fcfc18d77a9dd9 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 13]\nĐiều 19. Quyền nhân thân35\nQuyền nhân thân bao gồm:\n1. Đặt tên cho tác phẩm.\nTác giả có quyền chuyển quyền sử dụng quyền đặt tên tác phẩm cho tổ chức,\ncá nhân nhận chuyển giao quyền tài sản quy định tại khoản 1 Điều 20 của Luật này;\n2. Đứng tên thật hoặc bút danh trên tác phẩm; đượ c nêu tên thật hoặc bút\ndanh khi tác phẩm được công bố, sử dụng;\n3. Công bố tác phẩm hoặc cho phép người khác công bố tác phẩm;\n4. Bảo vệ sự toàn vẹn của tác phẩm không cho người khác xuyên tạc; không\ncho người khác sửa đổi, cắt xén tác phẩm dưới bất kỳ hì nh thức nào gây phương\nhại đến danh dự và uy tín của tác giả.\n\n35 Điều này được sửa đổi, bổ sung theo quy định tại khoản 5 Điều 1 của Luật số\n07/2022/QH15 sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ, có hiệu lực kể từ ngày 01\ntháng 01 năm 2023.\n\n[paragraph-22048fa3c96a6ec7 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 10]\nĐiều 12a. Tác giả, đồng tác giả30\n1. Tác giả là người trực tiếp sáng tạo tác phẩm. Trường hợp có từ hai người\ntrở lên cùng trực tiếp sáng tạo tác phẩm với chủ ý là sự đóng góp của họ được kết\nhợp thành một tổng thể hoàn chỉnh thì những người đó là các đồng tác giả.\n2. Người hỗ trợ, góp ý kiến hoặc cung cấp tư liệu cho người khác sáng tạo\ntác phẩm không phải là tác giả, đồng tác giả.\n3. Việc thực hiện quyền nhân thân và quyền tài sản đối với tác phẩm có đồng\ntác giả phải có sự thỏa thuận của các đồng tác giả, trừ trường hợp tác phẩm có\nphần riêng biệt có thể tách ra sử dụng độc lập mà không làm phương hại đến phần\ncủa các đồng tác giả khác hoặc luật khác có quy định khác.\n\nĐiều 13. Tác giả, chủ sở hữu quyền tác giả có tác phẩm được bảo hộ\nquyền tác giả\n\n1. Tổ chức, cá nhân có tác phẩm được bảo hộ quyền tác giả gồm người trực\ntiếp sáng tạo ra tác phẩm và chủ sở hữu quyền tác giả quy định tại các điều từ\nĐiều 37 đến Điều 42 của Luật này.\n\n[paragraph-7c88cc4860a102b9 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 30]\nngười thừa kế; người thừa kế từ chối nhận di sản hoặc không được quyền hưởng\ndi sản.\n\n2. Nhà nước đại diện quản lý quyền tác giả, quyền liên quan trong các trường\nhợp sau đây:\n\na) Tác phẩm, cuộc biểu diễn, bản ghi âm, ghi hình, chương trình phát sóng\nmà không thể tìm được hoặc không xác định được chủ sở hữu quyền tác giả, chủ\nsở hữu quyền liên quan, đồng chủ sở hữu quyền tác giả, đồng chủ sở hữu quyền\nliên quan theo quy định của Luật này;\n\nb) Tác phẩm khuyết danh cho đến khi danh tính của tác giả, đồng tác giả,\nchủ sở hữu quyền tác giả, đồng chủ sở hữu quyền tác giả được xác định, trừ trường\nhợp quy định tại khoản 2 Điều 41 của Luật này.",
+    "context_ids": [
+      "paragraph-b5fcfc18d77a9dd9",
+      "paragraph-22048fa3c96a6ec7",
+      "paragraph-7c88cc4860a102b9"
+    ],
+    "context_chars": 2720,
+    "database_elapsed_ms": 2.803499999572523,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "context_repacked_offline": true
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "Trong phạm vi Phần thứ hai, quyền tài sản nào cho phép công chúng tiếp cận tác phẩm tại địa điểm và thời gian họ lựa chọn?",
+    "strategy": "dense_pgvector",
+    "database_strategy": "B",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "gold": [
+      {
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "page": 14,
+        "evidence": "đ) Phát sóng, truyền đạt đến công chúng tác phẩm bằng phương tiện hữu tuyến, vô tuyến, mạng thông tin điện tử hoặc bất kỳ phương tiện kỹ thuật nào khác, bao gồm cả việc cung cấp tác phẩm đến công chúng theo cách mà công chúng có thể tiếp cận được tại địa điểm và thời gian do họ lựa chọn;"
+      }
+    ],
+    "filter": {
+      "section": "Phần thứ hai"
+    },
+    "results": [
+      {
+        "id": "paragraph-752b15bbad60dfee",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 14,
+        "text": "Điều 20. Quyền tài sản36\n\n1. Quyền tài sản bao gồm:\n\na) Làm tác phẩm phái sinh;\n\nb) Biểu diễn tác phẩm trước công chúng trực tiếp hoặc gián tiếp thông qua\ncác bản ghi âm, ghi hình ho ặc bất kỳ phương tiện kỹ thuật nào tại địa điểm mà\ncông chúng có thể tiếp cận được nhưng công chúng không thể tự do lựa chọn thời\ngian và từng phần tác phẩm;\n\nc) Sao chép trực tiếp hoặc gián tiếp toàn bộ hoặc một phần tác phẩm bằng\nbất kỳ phương tiện hay hình thức nà o, trừ trường hợp quy định tại điểm a khoản\n3 Điều này;\n\nd) Phân phối, nhập khẩu để phân phối đến công chúng thông qua bán hoặc\nhình thức chuyển giao quyền sở hữu khác đối với bản gốc, bản sao tác phẩm dưới\ndạng hữu hình, trừ trường hợp quy định tại điểm b khoản 3 Điều này;",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_014",
+          "article_end": 20,
+          "chunk_index": 0,
+          "article_start": 20,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2331,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6027045270404595,
+        "hit": false
+      },
+      {
+        "id": "paragraph-167d80b572994606",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 22,
+        "text": "e) Phát sóng, truyề n đạt đến công chúng bản định hình cuộc biểu diễn của\nmình, bao gồm cả cung cấp đến công chúng bản định hình cuộc biểu diễn theo cách\nmà công chúng có thể tiếp cận được tại địa điểm và thời gian do họ lựa chọn.\n\n4. Tổ chức, cá nhân khi khai thác, sử dụng mộ t, một số hoặc toàn bộ các\nquyền quy định tại khoản 3 Điều này phải được sự cho phép của chủ sở hữu quyền\n\n44 Điều này được sửa đổi, bổ sung theo quy định tại khoản 9 Điều 1 của Luật số\n07/2022/QH15 sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ, có hiệu lực kể từ ngày 01\ntháng 01 năm 2023.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_022",
+          "article_end": 29,
+          "chunk_index": 2,
+          "article_start": 29,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2385,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5623372869600944,
+        "hit": false
+      },
+      {
+        "id": "paragraph-cf7df0730d9309b9",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 30,
+        "text": "Điều 43. Tác phẩm, cuộc biểu diễn, bản ghi âm, ghi hình, chương trình\nphát sóng thuộc về công chúng53\n1. Tác phẩm đã kết thúc thời hạn bảo hộ theo quy định tại khoản 2 Điều 27\ncủa Luật này và cuộc biểu diễn, bản ghi âm, ghi hình, chương trình phát sóng đã\nkết thúc thời hạn bảo hộ theo quy định tại Điều 34 của Luật này thì thuộc về công\nchúng.\n2. Mọi tổ chức, cá nhân đều có quyền sử dụng tác phẩm, cuộc biểu diễn, bản\nghi âm, ghi hình, chương trình phát sóng quy định tại khoản 1 Điều này nhưng\nphải tôn trọng các quyền nhân thân của tác giả, người biểu diễn quy định tại Luật\nnày và quy định khác của pháp luật có liên quan.\n3. Chính phủ quy định chi tiết việc sử dụng tác phẩm, cuộc biểu diễn, bản\nghi âm, ghi hình, chương trình phát sóng thuộc về công chúng.\n\n53 Điều này được sửa đổi, bổ s ung theo quy định tại khoản 12 Điều 1 của Luật số\n07/2022/QH15 sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ, có hiệu lực kể từ ngày 01\ntháng 01 năm 2023.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_030",
+          "article_end": 43,
+          "chunk_index": 2,
+          "article_start": 43,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2320,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5568215175751324,
+        "hit": false
+      }
+    ],
+    "context": "[paragraph-752b15bbad60dfee | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 14]\nĐiều 20. Quyền tài sản36\n\n1. Quyền tài sản bao gồm:\n\na) Làm tác phẩm phái sinh;\n\nb) Biểu diễn tác phẩm trước công chúng trực tiếp hoặc gián tiếp thông qua\ncác bản ghi âm, ghi hình ho ặc bất kỳ phương tiện kỹ thuật nào tại địa điểm mà\ncông chúng có thể tiếp cận được nhưng công chúng không thể tự do lựa chọn thời\ngian và từng phần tác phẩm;\n\nc) Sao chép trực tiếp hoặc gián tiếp toàn bộ hoặc một phần tác phẩm bằng\nbất kỳ phương tiện hay hình thức nà o, trừ trường hợp quy định tại điểm a khoản\n3 Điều này;\n\nd) Phân phối, nhập khẩu để phân phối đến công chúng thông qua bán hoặc\nhình thức chuyển giao quyền sở hữu khác đối với bản gốc, bản sao tác phẩm dưới\ndạng hữu hình, trừ trường hợp quy định tại điểm b khoản 3 Điều này;\n\n[paragraph-167d80b572994606 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 22]\ne) Phát sóng, truyề n đạt đến công chúng bản định hình cuộc biểu diễn của\nmình, bao gồm cả cung cấp đến công chúng bản định hình cuộc biểu diễn theo cách\nmà công chúng có thể tiếp cận được tại địa điểm và thời gian do họ lựa chọn.\n\n4. Tổ chức, cá nhân khi khai thác, sử dụng mộ t, một số hoặc toàn bộ các\nquyền quy định tại khoản 3 Điều này phải được sự cho phép của chủ sở hữu quyền\n\n44 Điều này được sửa đổi, bổ sung theo quy định tại khoản 9 Điều 1 của Luật số\n07/2022/QH15 sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ, có hiệu lực kể từ ngày 01\ntháng 01 năm 2023.\n\n[paragraph-cf7df0730d9309b9 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 30]\nĐiều 43. Tác phẩm, cuộc biểu diễn, bản ghi âm, ghi hình, chương trình\nphát sóng thuộc về công chúng53\n1. Tác phẩm đã kết thúc thời hạn bảo hộ theo quy định tại khoản 2 Điều 27\ncủa Luật này và cuộc biểu diễn, bản ghi âm, ghi hình, chương trình phát sóng đã\nkết thúc thời hạn bảo hộ theo quy định tại Điều 34 của Luật này thì thuộc về công\nchúng.\n2. Mọi tổ chức, cá nhân đều có quyền sử dụng tác phẩm, cuộc biểu diễn, bản\nghi âm, ghi hình, chương trình phát sóng quy định tại khoản 1 Điều này nhưng\nphải tôn trọng các quyền nhân thân của tác giả, người biểu diễn quy định tại Luật\nnày và quy định khác của pháp luật có liên quan.\n3. Chính phủ quy định chi tiết việc sử dụng tác phẩm, cuộc biểu diễn, bản\nghi âm, ghi hình, chương trình phát sóng thuộc về công chúng.\n\n53 Điều này được sửa đổi, bổ s ung theo quy định tại khoản 12 Điều 1 của Luật số\n07/2022/QH15 sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ, có hiệu lực kể từ ngày 01\ntháng 01 năm 2023.",
+    "context_ids": [
+      "paragraph-752b15bbad60dfee",
+      "paragraph-167d80b572994606",
+      "paragraph-cf7df0730d9309b9"
+    ],
+    "context_chars": 2591,
+    "database_elapsed_ms": 5.272799999147537,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "context_repacked_offline": true
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "Khi khai thác các quyền tài sản theo Điều 20, tổ chức hoặc cá nhân thông thường phải làm gì?",
+    "strategy": "dense_pgvector",
+    "database_strategy": "B",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "gold": [
+      {
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "page": 14,
+        "evidence": "Tổ chức, cá nhân khi khai thác, sử dụng một, một số hoặc toàn bộ các quyền quy định tại khoản 1 Điều này và khoản 3 Điều 19 của Luật này phải được sự cho phép của chủ sở hữu quyền tác giả và trả tiền bản quyền, các quyền lợi vật chất khác (nếu có) cho chủ sở hữu quyền tác giả, trừ trường hợp quy định tại khoản 3 Điều này, các điều 25, 25a, 26, 32 và 33 của Luật này. Trường hợp làm tác phẩm phái sinh mà ảnh hưởng đến quyền nhân thân quy định tại khoản 4 Điều 19 của Luật này còn phải được sự đồng ý bằng văn bản của tác giả."
+      }
+    ],
+    "filter": null,
+    "results": [
+      {
+        "id": "paragraph-752b15bbad60dfee",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 14,
+        "text": "Điều 20. Quyền tài sản36\n\n1. Quyền tài sản bao gồm:\n\na) Làm tác phẩm phái sinh;\n\nb) Biểu diễn tác phẩm trước công chúng trực tiếp hoặc gián tiếp thông qua\ncác bản ghi âm, ghi hình ho ặc bất kỳ phương tiện kỹ thuật nào tại địa điểm mà\ncông chúng có thể tiếp cận được nhưng công chúng không thể tự do lựa chọn thời\ngian và từng phần tác phẩm;\n\nc) Sao chép trực tiếp hoặc gián tiếp toàn bộ hoặc một phần tác phẩm bằng\nbất kỳ phương tiện hay hình thức nà o, trừ trường hợp quy định tại điểm a khoản\n3 Điều này;\n\nd) Phân phối, nhập khẩu để phân phối đến công chúng thông qua bán hoặc\nhình thức chuyển giao quyền sở hữu khác đối với bản gốc, bản sao tác phẩm dưới\ndạng hữu hình, trừ trường hợp quy định tại điểm b khoản 3 Điều này;",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_014",
+          "article_end": 20,
+          "chunk_index": 0,
+          "article_start": 20,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2331,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.548389901772727,
+        "hit": false
+      },
+      {
+        "id": "paragraph-167d80b572994606",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 22,
+        "text": "e) Phát sóng, truyề n đạt đến công chúng bản định hình cuộc biểu diễn của\nmình, bao gồm cả cung cấp đến công chúng bản định hình cuộc biểu diễn theo cách\nmà công chúng có thể tiếp cận được tại địa điểm và thời gian do họ lựa chọn.\n\n4. Tổ chức, cá nhân khi khai thác, sử dụng mộ t, một số hoặc toàn bộ các\nquyền quy định tại khoản 3 Điều này phải được sự cho phép của chủ sở hữu quyền\n\n44 Điều này được sửa đổi, bổ sung theo quy định tại khoản 9 Điều 1 của Luật số\n07/2022/QH15 sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ, có hiệu lực kể từ ngày 01\ntháng 01 năm 2023.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_022",
+          "article_end": 29,
+          "chunk_index": 2,
+          "article_start": 29,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2385,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5339084945276733,
+        "hit": false
+      },
+      {
+        "id": "paragraph-298a8fec986b7699",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 28,
+        "text": "đó giải mã trái phép hoặc chủ yếu để giúp cho việc giải mã trái phép tín hiệu vệ\ntinh mang chương trình được mã hóa.\n10. Cố ý thu hoặc tiếp tục phân phối tín hiệu vệ tinh mang chương trình được\nmã hóa khi tín hiệu đã được giải mã mà không được phép của người phân phối\nhợp pháp.\n11. Không thực hiện hoặc thực hiện không đầy đủ quy định để được miễn\ntrừ trách nhiệm pháp lý của doanh nghiệp cung cấp dịch vụ trung gian quy định\ntại khoản 3 Điều 198b của Luật này.\n\nChương III\nCHỦ SỞ HỮU QUYỀN TÁC GIẢ, QUYỀN LIÊN QUAN\n\nĐiều 36. Chủ sở hữu quyền tác giả50\nChủ sở hữu quyền tác giả là tổ chức, cá nhân nắm giữ một, một số hoặc toàn\nbộ quyền quy định tại khoản 3 Điều 19 và khoản 1 Điều 20 của Luật này.\n\nĐiều 37. Chủ sở hữu quyền tác giả là tác giả\nTác giả sử dụng thời gian, tài chính, cơ sở vật chất - kỹ thuật của mình để\nsáng tạo ra tác phẩm có các quyền nhân thân quy định tại Đ iều 19 và các quyền\ntài sản quy định tại Điều 20 của Luật này.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_028",
+          "article_end": 39,
+          "chunk_index": 0,
+          "article_start": 36,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2164,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5269316395542738,
+        "hit": false
+      }
+    ],
+    "context": "[paragraph-752b15bbad60dfee | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 14]\nĐiều 20. Quyền tài sản36\n\n1. Quyền tài sản bao gồm:\n\na) Làm tác phẩm phái sinh;\n\nb) Biểu diễn tác phẩm trước công chúng trực tiếp hoặc gián tiếp thông qua\ncác bản ghi âm, ghi hình ho ặc bất kỳ phương tiện kỹ thuật nào tại địa điểm mà\ncông chúng có thể tiếp cận được nhưng công chúng không thể tự do lựa chọn thời\ngian và từng phần tác phẩm;\n\nc) Sao chép trực tiếp hoặc gián tiếp toàn bộ hoặc một phần tác phẩm bằng\nbất kỳ phương tiện hay hình thức nà o, trừ trường hợp quy định tại điểm a khoản\n3 Điều này;\n\nd) Phân phối, nhập khẩu để phân phối đến công chúng thông qua bán hoặc\nhình thức chuyển giao quyền sở hữu khác đối với bản gốc, bản sao tác phẩm dưới\ndạng hữu hình, trừ trường hợp quy định tại điểm b khoản 3 Điều này;\n\n[paragraph-167d80b572994606 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 22]\ne) Phát sóng, truyề n đạt đến công chúng bản định hình cuộc biểu diễn của\nmình, bao gồm cả cung cấp đến công chúng bản định hình cuộc biểu diễn theo cách\nmà công chúng có thể tiếp cận được tại địa điểm và thời gian do họ lựa chọn.\n\n4. Tổ chức, cá nhân khi khai thác, sử dụng mộ t, một số hoặc toàn bộ các\nquyền quy định tại khoản 3 Điều này phải được sự cho phép của chủ sở hữu quyền\n\n44 Điều này được sửa đổi, bổ sung theo quy định tại khoản 9 Điều 1 của Luật số\n07/2022/QH15 sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ, có hiệu lực kể từ ngày 01\ntháng 01 năm 2023.\n\n[paragraph-298a8fec986b7699 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 28]\nđó giải mã trái phép hoặc chủ yếu để giúp cho việc giải mã trái phép tín hiệu vệ\ntinh mang chương trình được mã hóa.\n10. Cố ý thu hoặc tiếp tục phân phối tín hiệu vệ tinh mang chương trình được\nmã hóa khi tín hiệu đã được giải mã mà không được phép của người phân phối\nhợp pháp.\n11. Không thực hiện hoặc thực hiện không đầy đủ quy định để được miễn\ntrừ trách nhiệm pháp lý của doanh nghiệp cung cấp dịch vụ trung gian quy định\ntại khoản 3 Điều 198b của Luật này.\n\nChương III\nCHỦ SỞ HỮU QUYỀN TÁC GIẢ, QUYỀN LIÊN QUAN\n\nĐiều 36. Chủ sở hữu quyền tác giả50\nChủ sở hữu quyền tác giả là tổ chức, cá nhân nắm giữ một, một số hoặc toàn\nbộ quyền quy định tại khoản 3 Điều 19 và khoản 1 Điều 20 của Luật này.\n\nĐiều 37. Chủ sở hữu quyền tác giả là tác giả\nTác giả sử dụng thời gian, tài chính, cơ sở vật chất - kỹ thuật của mình để\nsáng tạo ra tác phẩm có các quyền nhân thân quy định tại Đ iều 19 và các quyền\ntài sản quy định tại Điều 20 của Luật này.",
+    "context_ids": [
+      "paragraph-752b15bbad60dfee",
+      "paragraph-167d80b572994606",
+      "paragraph-298a8fec986b7699"
+    ],
+    "context_chars": 2577,
+    "database_elapsed_ms": 2.5739000011526514,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "context_repacked_offline": true
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "Đối với tác phẩm điện ảnh, ai sở hữu các quyền được nêu tại khoản 3 Điều 19 và khoản 1 Điều 20 nếu không có thỏa thuận khác bằng văn bản?",
+    "strategy": "dense_pgvector",
+    "database_strategy": "B",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "gold": [
+      {
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "page": 15,
+        "evidence": "Tổ chức, cá nhân đầu tư tài chính và cơ sở vật chất - kỹ thuật để sản xuất tác phẩm điện ảnh là chủ sở hữu các quyền quy định tại khoản 3 Điều 19 và khoản 1 Điều 20 của Luật này, trừ trường hợp có thỏa thuận khác bằng văn bản;"
+      }
+    ],
+    "filter": null,
+    "results": [
+      {
+        "id": "paragraph-c56303c458eb1a17",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 15,
+        "text": "a) Tác giả kịch bản sân khấu được hưởng quyền quy định tại các khoản 1, 2\nvà 4 Điều 19 của Luật này;\n\nb) Tác giả tác phẩm văn học, tác giả tác phẩm âm nhạc, đạo diễn sân khấu,\nchỉ huy âm nhạc, biên đạo múa, thiết kế sân khấu, phục trang và những người thực\nhiện các công việc khác có tính sáng tạo đối với tác phẩm sân khấu được hưởng\nquyền quy định tại khoản 2 Điều 19 của Luật này;\n\nc) Tổ chức, cá nhân đầu tư tài chính và cơ sở vật chất - kỹ thuật để xây dựng\ntác phẩm sân khấu là chủ sở hữu các quyền quy định tại khoản 3 Điều 19 và khoản\n1 Điều 20 của Luật này, trừ trường hợp có thỏa thuận khác bằng văn bản; có nghĩa\n\n37 Điều này được sửa đổi, bổ sung theo quy định tại khoản 5 Điều 1 của Luật số\n07/2022/QH15 sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ, có hiệu lực kể từ ngày 01\ntháng 01 năm 2023.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_015",
+          "article_end": 21,
+          "chunk_index": 2,
+          "article_start": 21,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2618,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6931947290448475,
+        "hit": false
+      },
+      {
+        "id": "paragraph-4b05f9a47fdc659b",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 15,
+        "text": "của các thiết bị để truyền phát trong một mạng lưới giữa các bên thứ ba thông qua\ntrung gian hoặc sử dụng hợp pháp tác phẩm, không có mục đích kinh tế độc lập\nvà bản sao bị tự động xóa bỏ, không có khả năng phục hồi lại;\nb) Phân phối lần tiếp theo, nhập khẩu để phân phối đối với bản gốc, bản sao\ntác phẩm đã được chủ sở hữu quyền tác giả thực hiện hoặc cho phép thực hiện\nviệc phân phối.\n\nĐiều 21. Quyền tác giả đối với tác phẩm điện ảnh, tác phẩm sân khấu37\n\n1. Quyền tác giả đối với tác phẩm điện ảnh được quy định như sau:\n\na) Biên kịch, đạo diễn được hưởng quyền quy định tại các khoản 1, 2 và 4\nĐiều 19 của Luật này;\n\nb) Quay phim, dựng phim, sáng tác âm nhạc, thiết kế mỹ thuật, thiết kế âm\nthanh, ánh sáng, kỹ xảo, diễn viên điện ảnh và những người thực hiện các công\nviệc khác có tính sáng tạo đối với tác phẩm điện ảnh được hưởng quyền quy định\ntại khoản 2 Điều 19 của Luật này;",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_015",
+          "article_end": 21,
+          "chunk_index": 0,
+          "article_start": 21,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2618,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.683172830596097,
+        "hit": false
+      },
+      {
+        "id": "paragraph-0d3eeb90405cbf5f",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 15,
+        "text": "c) Tổ chức, cá nhân đầu tư tài chính và cơ sở vật chất - kỹ thuật để sản xuất\ntác phẩm điện ảnh là chủ sở hữu các quyền quy định tại khoản 3 Điều 19 và khoản\n1 Điều 20 của Luật này, trừ trường hợp có thỏa thuận khác bằng văn bản; có nghĩa\nvụ trả tiền bản quyền, các quyền lợi vật chất khác (nếu có) theo hợp đồng với\nnhững người quy định tại điểm a và điểm b khoản này;\n\nd) Tổ chức, cá nhân đầu tư tài chính và cơ sở vật chất - kỹ thuật để sản xuất\ntác phẩm điện ảnh có thể thỏa thuận với những người qu y định tại điểm a khoản\nnày về việc đặt tên, sửa đổi tác phẩm;\n\nđ) Trường hợp kịch bản, tác phẩm âm nhạc trong tác phẩm điện ảnh được sử\ndụng độc lập thì tác giả, chủ sở hữu quyền tác giả của kịch bản, tác phẩm âm nhạc\nđược hưởng quyền tác giả một cách độc lập đối với kịch bản, tác phẩm âm nhạc đó,\ntrừ trường hợp có thỏa thuận khác bằng văn bản.\n\n2. Quyền tác giả đối với tác phẩm sân khấu được quy định như sau:",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_015",
+          "article_end": 21,
+          "chunk_index": 1,
+          "article_start": 21,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2618,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6807578779282626,
+        "hit": true
+      }
+    ],
+    "context": "[paragraph-c56303c458eb1a17 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 15]\na) Tác giả kịch bản sân khấu được hưởng quyền quy định tại các khoản 1, 2\nvà 4 Điều 19 của Luật này;\n\nb) Tác giả tác phẩm văn học, tác giả tác phẩm âm nhạc, đạo diễn sân khấu,\nchỉ huy âm nhạc, biên đạo múa, thiết kế sân khấu, phục trang và những người thực\nhiện các công việc khác có tính sáng tạo đối với tác phẩm sân khấu được hưởng\nquyền quy định tại khoản 2 Điều 19 của Luật này;\n\nc) Tổ chức, cá nhân đầu tư tài chính và cơ sở vật chất - kỹ thuật để xây dựng\ntác phẩm sân khấu là chủ sở hữu các quyền quy định tại khoản 3 Điều 19 và khoản\n1 Điều 20 của Luật này, trừ trường hợp có thỏa thuận khác bằng văn bản; có nghĩa\n\n37 Điều này được sửa đổi, bổ sung theo quy định tại khoản 5 Điều 1 của Luật số\n07/2022/QH15 sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ, có hiệu lực kể từ ngày 01\ntháng 01 năm 2023.\n\n[paragraph-4b05f9a47fdc659b | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 15]\ncủa các thiết bị để truyền phát trong một mạng lưới giữa các bên thứ ba thông qua\ntrung gian hoặc sử dụng hợp pháp tác phẩm, không có mục đích kinh tế độc lập\nvà bản sao bị tự động xóa bỏ, không có khả năng phục hồi lại;\nb) Phân phối lần tiếp theo, nhập khẩu để phân phối đối với bản gốc, bản sao\ntác phẩm đã được chủ sở hữu quyền tác giả thực hiện hoặc cho phép thực hiện\nviệc phân phối.\n\nĐiều 21. Quyền tác giả đối với tác phẩm điện ảnh, tác phẩm sân khấu37\n\n1. Quyền tác giả đối với tác phẩm điện ảnh được quy định như sau:\n\na) Biên kịch, đạo diễn được hưởng quyền quy định tại các khoản 1, 2 và 4\nĐiều 19 của Luật này;\n\nb) Quay phim, dựng phim, sáng tác âm nhạc, thiết kế mỹ thuật, thiết kế âm\nthanh, ánh sáng, kỹ xảo, diễn viên điện ảnh và những người thực hiện các công\nviệc khác có tính sáng tạo đối với tác phẩm điện ảnh được hưởng quyền quy định\ntại khoản 2 Điều 19 của Luật này;\n\n[paragraph-0d3eeb90405cbf5f | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 15]\nc) Tổ chức, cá nhân đầu tư tài chính và cơ sở vật chất - kỹ thuật để sản xuất\ntác phẩm điện ảnh là chủ sở hữu các quyền quy định tại khoản 3 Điều 19 và khoản\n1 Điều 20 của Luật này, trừ trường hợp có thỏa thuận khác bằng văn bản; có nghĩa\nvụ trả tiền bản quyền, các quyền lợi vật chất khác (nếu có) theo hợp đồng với\nnhững người quy định tại điểm a và điểm b khoản này;\n\nd) Tổ chức, cá nhân đầu tư tài chính và cơ sở vật chất - kỹ thuật để sản xuất\ntác phẩm điện ảnh có thể thỏa thuận với những người qu y định tại điểm a khoản\nnày về việc đặt tên, sửa đổi tác phẩm;\n\nđ) Trường hợp kịch bản, tác phẩm âm nhạc trong tác phẩm điện ảnh được sử\ndụng độc lập thì tác giả, chủ sở hữu quyền tác giả của kịch bản, tác phẩm âm nhạc\nđược hưởng quyền tác giả một cách độc lập đối với kịch bản, tác phẩm âm nhạc đó,\ntrừ trường hợp có thỏa thuận khác bằng văn bản.\n\n2. Quyền tác giả đối với tác phẩm sân khấu được quy định như sau:",
+    "context_ids": [
+      "paragraph-c56303c458eb1a17",
+      "paragraph-4b05f9a47fdc659b",
+      "paragraph-0d3eeb90405cbf5f"
+    ],
+    "context_chars": 2955,
+    "database_elapsed_ms": 2.7551999992283527,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "context_repacked_offline": true
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "Người có quyền sử dụng hợp pháp một bản sao chương trình máy tính có thể làm bản sao dự phòng trong trường hợp nào, và có được chuyển giao bản sao dự phòng không?",
+    "strategy": "dense_pgvector",
+    "database_strategy": "B",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "gold": [
+      {
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "page": 16,
+        "evidence": "Tổ chức, cá nhân có quyền sử dụng hợp pháp bản sao chương trình máy tính được làm một bản sao dự phòng để thay thế khi bản sao đó bị xóa, bị hỏng hoặc không thể sử dụng nhưng không được chuyển giao cho tổ chức, cá nhân khác."
+      }
+    ],
+    "filter": null,
+    "results": [
+      {
+        "id": "paragraph-64dafc78fee4cc52",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 16,
+        "text": "Điều 22. Quyền tác giả đối với chương trình máy tính, sưu tập dữ liệu\n1.38 Chương trình máy tính là tập hợp các chỉ dẫn được thể hiện dưới dạng\nlệnh, mã, lược đồ hoặc dạng khác, khi gắn vào một phương tiện, thiết bị được vận\nhành bằng ngôn ngữ lập trình máy tính thì có khả năng làm cho máy tính hoặc\nthiết bị thực hiện được công việc hoặc đạt được kết quả cụ thể. Chương trình máy\ntính được bảo hộ như tác phẩm văn học, dù được thể hiện dưới dạng mã nguồn\nhay mã máy.\nTác giả và chủ sở hữu quyền tác giả đối với chương trình máy tính có quyền\nthỏa thuận bằng văn bản với nhau về việc s ửa chữa, nâng cấp chương trình máy\ntính. Tổ chức, cá nhân có quyền sử dụng hợp pháp bản sao chương trình máy tính\nđược làm một bản sao dự phòng để thay thế khi bản sao đó bị xóa, bị hỏng hoặc\nkhông thể sử dụng nhưng không được chuyển giao cho tổ chức, cá nhân khác.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_016",
+          "article_end": 23,
+          "chunk_index": 1,
+          "article_start": 22,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2631,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6182042678702294,
+        "hit": true
+      },
+      {
+        "id": "paragraph-9ffd1e3739beb0c0",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 25,
+        "text": "3. Chủ sở hữu quyền đối với chương trình phát sóng không có q uyền ngăn\ncấm tổ chức, cá nhân khác thực hiện các hành vi sau đây:\na) Sao chép chương trình phát sóng chỉ để thực hiện các quyền khác theo quy\nđịnh của Luật này; sao chép tạm thời theo một quy trình công nghệ, trong quá\ntrình hoạt động của các thiết bị để truyền phát trong một mạng lưới giữa các bên\nthứ ba thông qua trung gian hoặc sử dụng hợp pháp chương trình phát sóng, không\ncó mục đích kinh tế độc lập và bản sao bị tự động xóa bỏ, không có khả năng phục\nhồi lại;\nb) Phân phối lần tiếp theo, nhập khẩu để phân phối đối với bản định hình\nchương trình phát sóng đã được chủ sở hữu quyền thực hiện hoặc cho phép thực\nhiện việc phân phối.\n\nĐiều 32. Các trường hợp ngoại lệ không xâm phạm quyền liên quan47",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_025",
+          "article_end": 32,
+          "chunk_index": 0,
+          "article_start": 32,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2355,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5102643359813261,
+        "hit": false
+      },
+      {
+        "id": "paragraph-cc9d3c24a4462c0c",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 25,
+        "text": "1. Các trường hợp sử dụng cuộc biểu diễn, bản ghi âm, ghi hì nh, chương\ntrình phát sóng đã công bố không phải xin phép, không phải trả tiền bản quyền\nnhưng phải thông tin về cuộc biểu diễn, bản ghi âm, ghi hình, chương trình phát\nsóng bao gồm:\n\na) Ghi âm, ghi hình trực tiếp một phần cuộc biểu diễn để giảng dạy không\nnhằm mục đích thương mại hoặc để đưa tin thời sự;\n\nb) Tự sao chép hoặc hỗ trợ người khuyết tật sao chép một phần cuộc biểu\ndiễn, bản ghi âm, ghi hình, chương trình phát sóng nhằm mục đích nghiên cứu\nkhoa học, học tập của cá nhân và không nhằm mục đích thương mại;\n\nc) Sao chép hợp lý một phần cuộc biểu diễn, bản ghi âm, ghi hình, chương\ntrình phát sóng để giảng dạy trực tiếp của cá nhân và không nhằm mục đích thương\nmại, trừ trường hợp cuộc biểu diễn, bản ghi âm, ghi hình, chương trình phát sóng\nnày đã được công bố để giảng dạy;\n\nd) Trích dẫn hợp lý nhằm mục đích đưa tin thời sự;\n\nđ) Tổ chức phát sóng tự làm bản sao tạm thời để phát sóng khi được hưởng\nquyền phát sóng.",
+        "metadata": {
+          "year": 2025,
+          "section": "Phần thứ hai",
+          "unit_id": "pdf_page_025",
+          "article_end": 32,
+          "chunk_index": 1,
+          "article_start": 32,
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "text_char_count": 2355,
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5080732081567144,
+        "hit": false
+      }
+    ],
+    "context": "[paragraph-64dafc78fee4cc52 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 16]\nĐiều 22. Quyền tác giả đối với chương trình máy tính, sưu tập dữ liệu\n1.38 Chương trình máy tính là tập hợp các chỉ dẫn được thể hiện dưới dạng\nlệnh, mã, lược đồ hoặc dạng khác, khi gắn vào một phương tiện, thiết bị được vận\nhành bằng ngôn ngữ lập trình máy tính thì có khả năng làm cho máy tính hoặc\nthiết bị thực hiện được công việc hoặc đạt được kết quả cụ thể. Chương trình máy\ntính được bảo hộ như tác phẩm văn học, dù được thể hiện dưới dạng mã nguồn\nhay mã máy.\nTác giả và chủ sở hữu quyền tác giả đối với chương trình máy tính có quyền\nthỏa thuận bằng văn bản với nhau về việc s ửa chữa, nâng cấp chương trình máy\ntính. Tổ chức, cá nhân có quyền sử dụng hợp pháp bản sao chương trình máy tính\nđược làm một bản sao dự phòng để thay thế khi bản sao đó bị xóa, bị hỏng hoặc\nkhông thể sử dụng nhưng không được chuyển giao cho tổ chức, cá nhân khác.\n\n[paragraph-9ffd1e3739beb0c0 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 25]\n3. Chủ sở hữu quyền đối với chương trình phát sóng không có q uyền ngăn\ncấm tổ chức, cá nhân khác thực hiện các hành vi sau đây:\na) Sao chép chương trình phát sóng chỉ để thực hiện các quyền khác theo quy\nđịnh của Luật này; sao chép tạm thời theo một quy trình công nghệ, trong quá\ntrình hoạt động của các thiết bị để truyền phát trong một mạng lưới giữa các bên\nthứ ba thông qua trung gian hoặc sử dụng hợp pháp chương trình phát sóng, không\ncó mục đích kinh tế độc lập và bản sao bị tự động xóa bỏ, không có khả năng phục\nhồi lại;\nb) Phân phối lần tiếp theo, nhập khẩu để phân phối đối với bản định hình\nchương trình phát sóng đã được chủ sở hữu quyền thực hiện hoặc cho phép thực\nhiện việc phân phối.\n\nĐiều 32. Các trường hợp ngoại lệ không xâm phạm quyền liên quan47\n\n[paragraph-cc9d3c24a4462c0c | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 25]\n1. Các trường hợp sử dụng cuộc biểu diễn, bản ghi âm, ghi hì nh, chương\ntrình phát sóng đã công bố không phải xin phép, không phải trả tiền bản quyền\nnhưng phải thông tin về cuộc biểu diễn, bản ghi âm, ghi hình, chương trình phát\nsóng bao gồm:\n\na) Ghi âm, ghi hình trực tiếp một phần cuộc biểu diễn để giảng dạy không\nnhằm mục đích thương mại hoặc để đưa tin thời sự;\n\nb) Tự sao chép hoặc hỗ trợ người khuyết tật sao chép một phần cuộc biểu\ndiễn, bản ghi âm, ghi hình, chương trình phát sóng nhằm mục đích nghiên cứu\nkhoa học, học tập của cá nhân và không nhằm mục đích thương mại;\n\nc) Sao chép hợp lý một phần cuộc biểu diễn, bản ghi âm, ghi hình, chương\ntrình phát sóng để giảng dạy trực tiếp của cá nhân và không nhằm mục đích thương\nmại, trừ trường hợp cuộc biểu diễn, bản ghi âm, ghi hình, chương trình phát sóng\nnày đã được công bố để giảng dạy;\n\nd) Trích dẫn hợp lý nhằm mục đích đưa tin thời sự;\n\nđ) Tổ chức phát sóng tự làm bản sao tạm thời để phát sóng khi được hưởng\nquyền phát sóng.",
+    "context_ids": [
+      "paragraph-64dafc78fee4cc52",
+      "paragraph-9ffd1e3739beb0c0",
+      "paragraph-cc9d3c24a4462c0c"
+    ],
+    "context_chars": 2950,
+    "database_elapsed_ms": 2.447500000926084,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "context_repacked_offline": true
+  }
+]

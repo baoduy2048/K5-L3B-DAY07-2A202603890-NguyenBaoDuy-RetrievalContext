@@ -1,0 +1,462 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "Trong Phần thứ hai, khi sử dụng tác phẩm văn học, nghệ thuật dân gian, người sử dụng phải làm gì để ghi nhận nguồn và bảo vệ giá trị của tác phẩm?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "gold": [
+      {
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "page": 17,
+        "evidence": "Tổ chức, cá nhân khi sử dụng tác phẩm văn học, nghệ thuật dân gian phải dẫn chiếu xuất xứ của loại hình tác phẩm đó và bảo đảm giữ gìn giá trị đích thực của tác phẩm văn học, nghệ thuật dân gian."
+      }
+    ],
+    "results": [
+      {
+        "id": "paragraph-43033fdf939ff1c1",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 17,
+        "text": "2. Tổ chức, cá nhân khi sử dụng tác phẩm văn học, nghệ thuật dân gian phải\ndẫn chiếu xuất xứ của loại hình tác phẩm đó và bảo đảm giữ gìn giá trị đích thực\ncủa tác phẩm văn học, nghệ thuật dân gian.\n\nĐiều 24. Quyền tác giả đối với tác phẩm văn học, nghệ thuật và khoa học\nViệc bảo hộ quyền tác giả đối với tác phẩm văn học, nghệ thuật và khoa học\nquy định tại khoản 1 Điều 14 của Luật này do Chính phủ quy định cụ thể.\n\nĐiều 25. Các trường hợp ngoại lệ không xâm phạm quyền tác giả39\n\n1. Các trường hợp sử dụng tác phẩm đã công bố không phải xin phép, không\nphải trả tiền bản quyền nhưng phải thông tin về tên tác giả và nguồn gốc, xuất xứ\ncủa tác phẩm bao gồm:\n\na) Tự sao chép một bản để nghiên cứu khoa học, học tập của cá nhân và\nkhông nhằm mục đích thương mại. Quy định này không áp dụng trong trường hợp\nsao chép bằng thiết bị sao chép;\n\nb) Sao chép hợp lý một phần tác phẩm bằng thiết bị sao chép để nghiên cứu\nkhoa học, học tập của cá nhân và không nhằm mục đích thương mại;",
+        "metadata": {
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "unit_id": "pdf_page_017",
+          "section": "Phần thứ hai",
+          "year": 2025,
+          "article_start": 24,
+          "article_end": 25,
+          "text_char_count": 2780,
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.47051541454886725,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "paragraph-ba087169acd1d520",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 17,
+        "text": "c) Sử dụng hợp lý tác phẩm để minh họa trong bài giảng, ấn phẩm, cuộc biểu\ndiễn, bản ghi âm, ghi hình, c hương trình phát sóng nhằm mục đích giảng dạy.\nViệc sử dụng này có thể bao gồm việc cung cấp trong mạng máy tính nội bộ với\nđiều kiện phải có các biện pháp kỹ thuật để bảo đảm chỉ người học và người dạy\ntrong buổi học đó có thể tiếp cận tác phẩm này;\n\nd) Sử dụng tác phẩm trong hoạt động công vụ của cơ quan nhà nước;\n\nđ) Trích dẫn hợp lý tác phẩm mà không làm sai ý tác giả để bình luận, giới\nthiệu hoặc minh họa trong tác phẩm của mình; để viết báo, sử dụng trong ấn phẩm\nđịnh kỳ, trong chương trình phát sóng, phim tài liệu;",
+        "metadata": {
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "unit_id": "pdf_page_017",
+          "section": "Phần thứ hai",
+          "year": 2025,
+          "article_start": 24,
+          "article_end": 25,
+          "text_char_count": 2780,
+          "chunking_strategy": "paragraph",
+          "chunk_index": 1
+        },
+        "score": 0.3303579880348014,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "paragraph-c71ff34c60da4189",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 16,
+        "text": "Điều 23. Quyền tác giả đối với tác phẩm văn học, nghệ thuật dân gian\n1. Tác phẩm văn học, nghệ thuật dân gian là sáng tạo tập thể trên nền tảng\ntruyền thống của một nhóm hoặc các cá nhân nhằm phản ánh khát vọng của cộng\nđồng, thể hiện tương xứng đặc điểm văn hóa và xã hội của họ, các tiêu chuẩn và\ngiá trị được lưu truyền bằng cách mô phỏng hoặc bằng cách khác. Tác phẩm văn\nhọc, nghệ thuật dân gian bao gồm:\na) Truyện, thơ, câu đố;\nb) Điệu hát, làn điệu âm nhạc;\nc) Điệu múa, vở diễn, nghi lễ và các trò chơi;\nd) Sản phẩm nghệ thuật đồ hoạ, hội hoạ, điêu khắc, nhạc cụ, hình mẫu kiến\ntrúc và các loại hình nghệ thuật khác được thể hiện dưới bất kỳ hình thức vật\nchất nào.\n\n38 Khoản này được sửa đổi, bổ sung theo quy định tại khoản 6 Điều 1 của Luật số\n07/2022/QH15 sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ, có hiệu lực kể từ ngày 01\ntháng 01 năm 2023.",
+        "metadata": {
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "unit_id": "pdf_page_016",
+          "section": "Phần thứ hai",
+          "year": 2025,
+          "article_start": 22,
+          "article_end": 23,
+          "text_char_count": 2631,
+          "chunking_strategy": "paragraph",
+          "chunk_index": 3
+        },
+        "score": 0.3262392616920181,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[paragraph-43033fdf939ff1c1 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 17]\n2. Tổ chức, cá nhân khi sử dụng tác phẩm văn học, nghệ thuật dân gian phải\ndẫn chiếu xuất xứ của loại hình tác phẩm đó và bảo đảm giữ gìn giá trị đích thực\ncủa tác phẩm văn học, nghệ thuật dân gian.\n\nĐiều 24. Quyền tác giả đối với tác phẩm văn học, nghệ thuật và khoa học\nViệc bảo hộ quyền tác giả đối với tác phẩm văn học, nghệ thuật và khoa học\nquy định tại khoản 1 Điều 14 của Luật này do Chính phủ quy định cụ thể.\n\nĐiều 25. Các trường hợp ngoại lệ không xâm phạm quyền tác giả39\n\n1. Các trường hợp sử dụng tác phẩm đã công bố không phải xin phép, không\nphải trả tiền bản quyền nhưng phải thông tin về tên tác giả và nguồn gốc, xuất xứ\ncủa tác phẩm bao gồm:\n\na) Tự sao chép một bản để nghiên cứu khoa học, học tập của cá nhân và\nkhông nhằm mục đích thương mại. Quy định này không áp dụng trong trường hợp\nsao chép bằng thiết bị sao chép;\n\nb) Sao chép hợp lý một phần tác phẩm bằng thiết bị sao chép để nghiên cứu\nkhoa học, học tập của cá nhân và không nhằm mục đích thương mại;\n\n[paragraph-ba087169acd1d520 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 17]\nc) Sử dụng hợp lý tác phẩm để minh họa trong bài giảng, ấn phẩm, cuộc biểu\ndiễn, bản ghi âm, ghi hình, c hương trình phát sóng nhằm mục đích giảng dạy.\nViệc sử dụng này có thể bao gồm việc cung cấp trong mạng máy tính nội bộ với\nđiều kiện phải có các biện pháp kỹ thuật để bảo đảm chỉ người học và người dạy\ntrong buổi học đó có thể tiếp cận tác phẩm này;\n\nd) Sử dụng tác phẩm trong hoạt động công vụ của cơ quan nhà nước;\n\nđ) Trích dẫn hợp lý tác phẩm mà không làm sai ý tác giả để bình luận, giới\nthiệu hoặc minh họa trong tác phẩm của mình; để viết báo, sử dụng trong ấn phẩm\nđịnh kỳ, trong chương trình phát sóng, phim tài liệu;\n\n[paragraph-c71ff34c60da4189 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 16]\nĐiều 23. Quyền tác giả đối với tác phẩm văn học, nghệ thuật dân gian\n1. Tác phẩm văn học, nghệ thuật dân gian là sáng tạo tập thể trên nền tảng\ntruyền thống của một nhóm hoặc các cá nhân nhằm phản ánh khát vọng của cộng\nđồng, thể hiện tương xứng đặc điểm văn hóa và xã hội của họ, các tiêu chuẩn và\ngiá trị được lưu truyền bằng cách mô phỏng hoặc bằng cách khác. Tác phẩm văn\nhọc, nghệ thuật dân gian bao gồm:\na) Truyện, thơ, câu đố;\nb) Điệu hát, làn điệu âm nhạc;\nc) Điệu múa, vở diễn, nghi lễ và các trò chơi;\nd) Sản phẩm nghệ thuật đồ hoạ, hội hoạ, điêu khắc, nhạc cụ, hình mẫu kiến\ntrúc và các loại hình nghệ thuật khác được thể hiện dưới bất kỳ hình thức vật\nchất nào.\n\n38 Khoản này được sửa đổi, bổ sung theo quy định tại khoản 6 Điều 1 của Luật số\n07/2022/QH15 sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ, có hiệu lực kể từ ngày 01\ntháng 01 năm 2023.",
+    "context_ids": [
+      "paragraph-43033fdf939ff1c1",
+      "paragraph-ba087169acd1d520",
+      "paragraph-c71ff34c60da4189"
+    ],
+    "context_chars": 2813,
+    "elapsed_ms": 0.4136000006838003,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "context_repacked_offline": true
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "Một cá nhân tự sao chép một bản tác phẩm đã công bố để học tập thì khi nào thuộc trường hợp không phải xin phép và không phải trả tiền bản quyền?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "gold": [
+      {
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "page": 17,
+        "evidence": "Các trường hợp sử dụng tác phẩm đã công bố không phải xin phép, không phải trả tiền bản quyền nhưng phải thông tin về tên tác giả và nguồn gốc, xuất xứ của tác phẩm bao gồm: a) Tự sao chép một bản để nghiên cứu khoa học, học tập của cá nhân và không nhằm mục đích thương mại."
+      }
+    ],
+    "results": [
+      {
+        "id": "paragraph-43033fdf939ff1c1",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 17,
+        "text": "2. Tổ chức, cá nhân khi sử dụng tác phẩm văn học, nghệ thuật dân gian phải\ndẫn chiếu xuất xứ của loại hình tác phẩm đó và bảo đảm giữ gìn giá trị đích thực\ncủa tác phẩm văn học, nghệ thuật dân gian.\n\nĐiều 24. Quyền tác giả đối với tác phẩm văn học, nghệ thuật và khoa học\nViệc bảo hộ quyền tác giả đối với tác phẩm văn học, nghệ thuật và khoa học\nquy định tại khoản 1 Điều 14 của Luật này do Chính phủ quy định cụ thể.\n\nĐiều 25. Các trường hợp ngoại lệ không xâm phạm quyền tác giả39\n\n1. Các trường hợp sử dụng tác phẩm đã công bố không phải xin phép, không\nphải trả tiền bản quyền nhưng phải thông tin về tên tác giả và nguồn gốc, xuất xứ\ncủa tác phẩm bao gồm:\n\na) Tự sao chép một bản để nghiên cứu khoa học, học tập của cá nhân và\nkhông nhằm mục đích thương mại. Quy định này không áp dụng trong trường hợp\nsao chép bằng thiết bị sao chép;\n\nb) Sao chép hợp lý một phần tác phẩm bằng thiết bị sao chép để nghiên cứu\nkhoa học, học tập của cá nhân và không nhằm mục đích thương mại;",
+        "metadata": {
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "unit_id": "pdf_page_017",
+          "section": "Phần thứ hai",
+          "year": 2025,
+          "article_start": 24,
+          "article_end": 25,
+          "text_char_count": 2780,
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.5016086502239,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "paragraph-6e0dc19d93987e90",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 26,
+        "text": "Điều 33. Giới hạn quyền liên quan48\n\n1. Các trường hợp sử dụng bản ghi âm, ghi hình đã công bố không phải\nxin phép nhưng phải trả tiền bản quyền, phải thông tin về bản ghi âm, ghi hình\nbao gồm:\n\na) Tổ chức, cá nhân sử dụng bản ghi âm, ghi hình đã công bố nhằm mục đích\nthương mại để phát sóng có tài trợ, quảng cáo hoặc thu tiền dưới bất kỳ hình thức\nnào không phải xin phép nhưng phải trả tiền bản quyền cho người biểu diễn, nhà\nsản xuất bản ghi âm, ghi hình, tổ chức phát sóng kể từ khi sử dụng. Mức tiền bản\nquyền và phương thức thanh toán do các bên thỏa thuận; trường hợp không đạt\nđược thỏa thuận thì thực hiện theo quy định của Chính phủ.\nTổ chức, cá nhân sử dụng bản ghi âm, ghi hình đã công bố nhằm mục đích\nthương mại để phát sóng không có tài trợ, quảng cáo hoặc không thu tiền dưới bất\nkỳ hình thức nào không phải xin phép nhưng phải trả tiền bản quyền cho người\nbiểu diễn, nhà sản xuất bản ghi âm, ghi hình, tổ chức phát sóng kể từ khi sử dụng\ntheo quy định của Chính phủ;",
+        "metadata": {
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "unit_id": "pdf_page_026",
+          "section": "Phần thứ hai",
+          "year": 2025,
+          "article_start": 33,
+          "article_end": 34,
+          "text_char_count": 2695,
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.469263689795561,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "paragraph-eeb5a87581829eba",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 19,
+        "text": "Điều 26. Giới hạn quyền tác giả41\n\n1. Các trường hợp sử dụng tác phẩm đã công bố không phải xin phép nhưng\nphải trả tiền bản quyền, phải thông tin về tên tác giả và nguồn gốc, xuất xứ của\ntác phẩm bao gồm:",
+        "metadata": {
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "unit_id": "pdf_page_019",
+          "section": "Phần thứ hai",
+          "year": 2025,
+          "article_start": 26,
+          "article_end": 26,
+          "text_char_count": 2673,
+          "chunking_strategy": "paragraph",
+          "chunk_index": 2
+        },
+        "score": 0.46837403201057204,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[paragraph-43033fdf939ff1c1 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 17]\n2. Tổ chức, cá nhân khi sử dụng tác phẩm văn học, nghệ thuật dân gian phải\ndẫn chiếu xuất xứ của loại hình tác phẩm đó và bảo đảm giữ gìn giá trị đích thực\ncủa tác phẩm văn học, nghệ thuật dân gian.\n\nĐiều 24. Quyền tác giả đối với tác phẩm văn học, nghệ thuật và khoa học\nViệc bảo hộ quyền tác giả đối với tác phẩm văn học, nghệ thuật và khoa học\nquy định tại khoản 1 Điều 14 của Luật này do Chính phủ quy định cụ thể.\n\nĐiều 25. Các trường hợp ngoại lệ không xâm phạm quyền tác giả39\n\n1. Các trường hợp sử dụng tác phẩm đã công bố không phải xin phép, không\nphải trả tiền bản quyền nhưng phải thông tin về tên tác giả và nguồn gốc, xuất xứ\ncủa tác phẩm bao gồm:\n\na) Tự sao chép một bản để nghiên cứu khoa học, học tập của cá nhân và\nkhông nhằm mục đích thương mại. Quy định này không áp dụng trong trường hợp\nsao chép bằng thiết bị sao chép;\n\nb) Sao chép hợp lý một phần tác phẩm bằng thiết bị sao chép để nghiên cứu\nkhoa học, học tập của cá nhân và không nhằm mục đích thương mại;\n\n[paragraph-6e0dc19d93987e90 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 26]\nĐiều 33. Giới hạn quyền liên quan48\n\n1. Các trường hợp sử dụng bản ghi âm, ghi hình đã công bố không phải\nxin phép nhưng phải trả tiền bản quyền, phải thông tin về bản ghi âm, ghi hình\nbao gồm:\n\na) Tổ chức, cá nhân sử dụng bản ghi âm, ghi hình đã công bố nhằm mục đích\nthương mại để phát sóng có tài trợ, quảng cáo hoặc thu tiền dưới bất kỳ hình thức\nnào không phải xin phép nhưng phải trả tiền bản quyền cho người biểu diễn, nhà\nsản xuất bản ghi âm, ghi hình, tổ chức phát sóng kể từ khi sử dụng. Mức tiền bản\nquyền và phương thức thanh toán do các bên thỏa thuận; trường hợp không đạt\nđược thỏa thuận thì thực hiện theo quy định của Chính phủ.\nTổ chức, cá nhân sử dụng bản ghi âm, ghi hình đã công bố nhằm mục đích\nthương mại để phát sóng không có tài trợ, quảng cáo hoặc không thu tiền dưới bất\nkỳ hình thức nào không phải xin phép nhưng phải trả tiền bản quyền cho người\nbiểu diễn, nhà sản xuất bản ghi âm, ghi hình, tổ chức phát sóng kể từ khi sử dụng\ntheo quy định của Chính phủ;\n\n[paragraph-eeb5a87581829eba | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 19]\nĐiều 26. Giới hạn quyền tác giả41\n\n1. Các trường hợp sử dụng tác phẩm đã công bố không phải xin phép nhưng\nphải trả tiền bản quyền, phải thông tin về tên tác giả và nguồn gốc, xuất xứ của\ntác phẩm bao gồm:",
+    "context_ids": [
+      "paragraph-43033fdf939ff1c1",
+      "paragraph-6e0dc19d93987e90",
+      "paragraph-eeb5a87581829eba"
+    ],
+    "context_chars": 2505,
+    "elapsed_ms": 0.39060000017343555,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "context_repacked_offline": true
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Với bản ghi âm, ghi hình đã công bố dùng trong hoạt động kinh doanh, thương mại, tổ chức hoặc cá nhân có cần xin phép không và phải trả gì?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "gold": [
+      {
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "page": 20,
+        "evidence": "Trường hợp tác phẩm đã được chủ sở hữu quyền tác giả cho phép định hình trên bản ghi âm, ghi hình công bố nhằm mục đích thương mại thì tổ chức, cá nhân sử dụng bản ghi âm, ghi hình này trong hoạt động kinh doanh, thương mại không phải xin phép nhưng phải trả tiền bản quyền cho chủ sở hữu quyền tác giả của tác phẩm đó theo thỏa thuận kể từ khi sử dụng; trường hợp không đạt được thỏa thuận thì thực hiện theo quy định của Chính phủ."
+      }
+    ],
+    "results": [
+      {
+        "id": "paragraph-44c801b0de4c2aef",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 26,
+        "text": "b) Tổ chức, cá nhân sử dụng bản ghi âm, ghi hình đã công bố nhằm mục đích\nthương mại trong hoạt động kinh doanh, thương mại không phải xin phép nhưng\nphải trả tiền bản quyền theo thỏa thuận cho người biểu diễn, nhà sản xuất bản ghi\nâm, ghi hình, tổ chức phát sóng kể từ khi sử dụng; trường hợp không đạt được\nthỏa thuận thì thực hiện theo quy định của Chính phủ. Chính phủ quy định chi tiết\ncác hoạt động kinh doanh, thương mại quy định tại điểm này.\n\n2. Việc sử dụng bản ghi âm, ghi hình quy định tại khoản 1 Điều này không\nđược mâu thuẫn với việc khai thác bình thường cuộc biểu diễn, bản ghi âm, ghi\nhình, chương trình phát sóng và không gây thiệt hại một cách bất hợp lý đến\nlợi ích hợp pháp của người biểu diễn, nhà sản xuất bản ghi âm, ghi hình, tổ\nchức phát sóng.",
+        "metadata": {
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "unit_id": "pdf_page_026",
+          "section": "Phần thứ hai",
+          "year": 2025,
+          "article_start": 33,
+          "article_end": 34,
+          "text_char_count": 2695,
+          "chunking_strategy": "paragraph",
+          "chunk_index": 1
+        },
+        "score": 0.573971091744406,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "paragraph-6e0dc19d93987e90",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 26,
+        "text": "Điều 33. Giới hạn quyền liên quan48\n\n1. Các trường hợp sử dụng bản ghi âm, ghi hình đã công bố không phải\nxin phép nhưng phải trả tiền bản quyền, phải thông tin về bản ghi âm, ghi hình\nbao gồm:\n\na) Tổ chức, cá nhân sử dụng bản ghi âm, ghi hình đã công bố nhằm mục đích\nthương mại để phát sóng có tài trợ, quảng cáo hoặc thu tiền dưới bất kỳ hình thức\nnào không phải xin phép nhưng phải trả tiền bản quyền cho người biểu diễn, nhà\nsản xuất bản ghi âm, ghi hình, tổ chức phát sóng kể từ khi sử dụng. Mức tiền bản\nquyền và phương thức thanh toán do các bên thỏa thuận; trường hợp không đạt\nđược thỏa thuận thì thực hiện theo quy định của Chính phủ.\nTổ chức, cá nhân sử dụng bản ghi âm, ghi hình đã công bố nhằm mục đích\nthương mại để phát sóng không có tài trợ, quảng cáo hoặc không thu tiền dưới bất\nkỳ hình thức nào không phải xin phép nhưng phải trả tiền bản quyền cho người\nbiểu diễn, nhà sản xuất bản ghi âm, ghi hình, tổ chức phát sóng kể từ khi sử dụng\ntheo quy định của Chính phủ;",
+        "metadata": {
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "unit_id": "pdf_page_026",
+          "section": "Phần thứ hai",
+          "year": 2025,
+          "article_start": 33,
+          "article_end": 34,
+          "text_char_count": 2695,
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.5092894315269642,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "paragraph-0505b860b6f1cef8",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 20,
+        "text": "bất kỳ hình thức nào không phải xin phép nhưng phải trả tiền bản quyền cho chủ\nsở hữu quyền tác giả kể từ khi sử dụng theo quy định của Chính phủ;\n\nb) Trường hợp tác phẩm đã được chủ sở hữu quyền tác giả cho phép định\nhình trên bản ghi âm, ghi hình công bố nhằm mục đích thương mại thì tổ chức,\ncá nhân sử dụng bản ghi âm, ghi hình này trong hoạt động kinh doanh, thương\nmại không phải xin phép nhưng phải trả tiền bản quyền cho chủ sở hữu quyền\ntác giả của tác phẩm đó theo thỏa thuận kể từ khi sử dụng; trường hợp không đạt\nđược thỏa thuận thì thực hiện theo quy định của Chính phủ. Chính phủ quy định\nchi tiết các hoạt động kinh doanh, thương mại quy định tại điểm này.\n\n2. Việc sử dụng tác phẩm quy định tại khoản 1 Điều này không được mâu\nthuẫn với việc khai thác bình thường tác phẩm và không gây thiệt hại một cách\nbất hợp lý đến lợi ích hợp pháp của tác giả, chủ sở hữu quyền tác giả.",
+        "metadata": {
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "unit_id": "pdf_page_020",
+          "section": "Phần thứ hai",
+          "year": 2025,
+          "article_start": 27,
+          "article_end": 27,
+          "text_char_count": 2700,
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.48625947379433143,
+        "strategy": "tfidf",
+        "hit": true
+      }
+    ],
+    "context": "[paragraph-44c801b0de4c2aef | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 26]\nb) Tổ chức, cá nhân sử dụng bản ghi âm, ghi hình đã công bố nhằm mục đích\nthương mại trong hoạt động kinh doanh, thương mại không phải xin phép nhưng\nphải trả tiền bản quyền theo thỏa thuận cho người biểu diễn, nhà sản xuất bản ghi\nâm, ghi hình, tổ chức phát sóng kể từ khi sử dụng; trường hợp không đạt được\nthỏa thuận thì thực hiện theo quy định của Chính phủ. Chính phủ quy định chi tiết\ncác hoạt động kinh doanh, thương mại quy định tại điểm này.\n\n2. Việc sử dụng bản ghi âm, ghi hình quy định tại khoản 1 Điều này không\nđược mâu thuẫn với việc khai thác bình thường cuộc biểu diễn, bản ghi âm, ghi\nhình, chương trình phát sóng và không gây thiệt hại một cách bất hợp lý đến\nlợi ích hợp pháp của người biểu diễn, nhà sản xuất bản ghi âm, ghi hình, tổ\nchức phát sóng.\n\n[paragraph-6e0dc19d93987e90 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 26]\nĐiều 33. Giới hạn quyền liên quan48\n\n1. Các trường hợp sử dụng bản ghi âm, ghi hình đã công bố không phải\nxin phép nhưng phải trả tiền bản quyền, phải thông tin về bản ghi âm, ghi hình\nbao gồm:\n\na) Tổ chức, cá nhân sử dụng bản ghi âm, ghi hình đã công bố nhằm mục đích\nthương mại để phát sóng có tài trợ, quảng cáo hoặc thu tiền dưới bất kỳ hình thức\nnào không phải xin phép nhưng phải trả tiền bản quyền cho người biểu diễn, nhà\nsản xuất bản ghi âm, ghi hình, tổ chức phát sóng kể từ khi sử dụng. Mức tiền bản\nquyền và phương thức thanh toán do các bên thỏa thuận; trường hợp không đạt\nđược thỏa thuận thì thực hiện theo quy định của Chính phủ.\nTổ chức, cá nhân sử dụng bản ghi âm, ghi hình đã công bố nhằm mục đích\nthương mại để phát sóng không có tài trợ, quảng cáo hoặc không thu tiền dưới bất\nkỳ hình thức nào không phải xin phép nhưng phải trả tiền bản quyền cho người\nbiểu diễn, nhà sản xuất bản ghi âm, ghi hình, tổ chức phát sóng kể từ khi sử dụng\ntheo quy định của Chính phủ;\n\n[paragraph-0505b860b6f1cef8 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 20]\nbất kỳ hình thức nào không phải xin phép nhưng phải trả tiền bản quyền cho chủ\nsở hữu quyền tác giả kể từ khi sử dụng theo quy định của Chính phủ;\n\nb) Trường hợp tác phẩm đã được chủ sở hữu quyền tác giả cho phép định\nhình trên bản ghi âm, ghi hình công bố nhằm mục đích thương mại thì tổ chức,\ncá nhân sử dụng bản ghi âm, ghi hình này trong hoạt động kinh doanh, thương\nmại không phải xin phép nhưng phải trả tiền bản quyền cho chủ sở hữu quyền\ntác giả của tác phẩm đó theo thỏa thuận kể từ khi sử dụng; trường hợp không đạt\nđược thỏa thuận thì thực hiện theo quy định của Chính phủ. Chính phủ quy định\nchi tiết các hoạt động kinh doanh, thương mại quy định tại điểm này.\n\n2. Việc sử dụng tác phẩm quy định tại khoản 1 Điều này không được mâu\nthuẫn với việc khai thác bình thường tác phẩm và không gây thiệt hại một cách\nbất hợp lý đến lợi ích hợp pháp của tác giả, chủ sở hữu quyền tác giả.",
+    "context_ids": [
+      "paragraph-44c801b0de4c2aef",
+      "paragraph-6e0dc19d93987e90",
+      "paragraph-0505b860b6f1cef8"
+    ],
+    "context_chars": 2981,
+    "elapsed_ms": 0.3677000004245201,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "context_repacked_offline": true
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Đối với tác phẩm có đồng tác giả, thời hạn bảo hộ quyền tác giả kết thúc khi nào?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "gold": [
+      {
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "page": 21,
+        "evidence": "trường hợp tác phẩm có đồng tác giả thì thời hạn bảo hộ chấm dứt vào năm thứ năm mươi sau năm đồng tác giả cuối cùng chết;"
+      }
+    ],
+    "results": [
+      {
+        "id": "paragraph-22048fa3c96a6ec7",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 10,
+        "text": "Điều 12a. Tác giả, đồng tác giả30\n1. Tác giả là người trực tiếp sáng tạo tác phẩm. Trường hợp có từ hai người\ntrở lên cùng trực tiếp sáng tạo tác phẩm với chủ ý là sự đóng góp của họ được kết\nhợp thành một tổng thể hoàn chỉnh thì những người đó là các đồng tác giả.\n2. Người hỗ trợ, góp ý kiến hoặc cung cấp tư liệu cho người khác sáng tạo\ntác phẩm không phải là tác giả, đồng tác giả.\n3. Việc thực hiện quyền nhân thân và quyền tài sản đối với tác phẩm có đồng\ntác giả phải có sự thỏa thuận của các đồng tác giả, trừ trường hợp tác phẩm có\nphần riêng biệt có thể tách ra sử dụng độc lập mà không làm phương hại đến phần\ncủa các đồng tác giả khác hoặc luật khác có quy định khác.\n\nĐiều 13. Tác giả, chủ sở hữu quyền tác giả có tác phẩm được bảo hộ\nquyền tác giả\n\n1. Tổ chức, cá nhân có tác phẩm được bảo hộ quyền tác giả gồm người trực\ntiếp sáng tạo ra tác phẩm và chủ sở hữu quyền tác giả quy định tại các điều từ\nĐiều 37 đến Điều 42 của Luật này.",
+        "metadata": {
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "unit_id": "pdf_page_010",
+          "section": "Phần thứ hai",
+          "year": 2025,
+          "article_start": 12,
+          "article_end": 13,
+          "text_char_count": 2358,
+          "chunking_strategy": "paragraph",
+          "chunk_index": 1
+        },
+        "score": 0.5107020659911845,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "paragraph-d49ff4d0d43c59aa",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 20,
+        "text": "a) Tác phẩm điện ảnh, nhiếp ảnh, mỹ thuật ứng dụng, tác phẩm khuyết danh\ncó thời hạn bảo hộ là bảy mươi lăm năm, kể từ khi tác phẩm được công bố lần đầu\ntiên; đối với tác phẩm điện ảnh, nhiếp ảnh, mỹ thuật ứng dụng chưa được công bố\ntrong thời hạn hai mươi lăm năm, kể từ khi tác phẩm được định hình thì thời hạn\nbảo hộ là một trăm năm, kể từ khi tác phẩm được định hình; đối với tác phẩm\nkhuyết danh, khi các thông tin về tác giả xuất hiện thì thời hạn bảo hộ được tính\ntheo quy định tại điểm b khoản này;\n\nb) Tác phẩm không thuộc loại hình quy định tại điểm a khoản này có thời\nhạn bảo hộ là suốt cuộc đời tác giả và năm mươi năm tiếp theo năm tác giả chết;\n\n42 Điều này được sửa đổi, bổ sung theo qu y định tại khoản 8 Điều 1 của Luật số\n36/2009/QH12 sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ, có hiệu lực kể từ ngày 01\ntháng 01 năm 2010.",
+        "metadata": {
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "unit_id": "pdf_page_020",
+          "section": "Phần thứ hai",
+          "year": 2025,
+          "article_start": 27,
+          "article_end": 27,
+          "text_char_count": 2700,
+          "chunking_strategy": "paragraph",
+          "chunk_index": 2
+        },
+        "score": 0.4159878020455114,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "paragraph-275f3e9e1469d960",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 21,
+        "text": "trường hợp tác phẩm có đồng tác giả thì thời hạn bảo hộ chấm dứt vào năm thứ\nnăm mươi sau năm đồng tác giả cuối cùng chết;\nc) Thời hạn bảo hộ quy định tại điểm a và điểm b khoản này chấm dứt vào thời\nđiểm 24 giờ ngày 31 tháng 12 của năm chấm dứt thời hạn bảo hộ quyền tác giả.\n\nĐiều 28. Hành vi xâm phạm quyền tác giả43\n\n1. Xâm phạm quyền nhân thân quy định tại Điều 19 của Luật này.\n\n2. Xâm phạm quyền tài sản quy định tại Điều 20 của Luật này.\n\n3. Không thực hiện hoặc thực hiện không đầy đủ nghĩa vụ quy định tại các\nđiều 25, 25a và 26 của Luật này.\n\n4. Cố ý hủy bỏ hoặc làm vô hiệu biện pháp công nghệ hữu hiệu do tác giả,\nchủ sở hữu quyền tác giả thực hiện để bảo vệ quyền tác giả đối với tác phẩm của\nmình nhằm thực hiện hành vi quy định tại Điều này và Điều 35 của Luật này.",
+        "metadata": {
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "unit_id": "pdf_page_021",
+          "section": "Phần thứ hai",
+          "year": 2025,
+          "article_start": 28,
+          "article_end": 28,
+          "text_char_count": 2309,
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.38091618592716614,
+        "strategy": "tfidf",
+        "hit": true
+      }
+    ],
+    "context": "[paragraph-22048fa3c96a6ec7 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 10]\nĐiều 12a. Tác giả, đồng tác giả30\n1. Tác giả là người trực tiếp sáng tạo tác phẩm. Trường hợp có từ hai người\ntrở lên cùng trực tiếp sáng tạo tác phẩm với chủ ý là sự đóng góp của họ được kết\nhợp thành một tổng thể hoàn chỉnh thì những người đó là các đồng tác giả.\n2. Người hỗ trợ, góp ý kiến hoặc cung cấp tư liệu cho người khác sáng tạo\ntác phẩm không phải là tác giả, đồng tác giả.\n3. Việc thực hiện quyền nhân thân và quyền tài sản đối với tác phẩm có đồng\ntác giả phải có sự thỏa thuận của các đồng tác giả, trừ trường hợp tác phẩm có\nphần riêng biệt có thể tách ra sử dụng độc lập mà không làm phương hại đến phần\ncủa các đồng tác giả khác hoặc luật khác có quy định khác.\n\nĐiều 13. Tác giả, chủ sở hữu quyền tác giả có tác phẩm được bảo hộ\nquyền tác giả\n\n1. Tổ chức, cá nhân có tác phẩm được bảo hộ quyền tác giả gồm người trực\ntiếp sáng tạo ra tác phẩm và chủ sở hữu quyền tác giả quy định tại các điều từ\nĐiều 37 đến Điều 42 của Luật này.\n\n[paragraph-d49ff4d0d43c59aa | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 20]\na) Tác phẩm điện ảnh, nhiếp ảnh, mỹ thuật ứng dụng, tác phẩm khuyết danh\ncó thời hạn bảo hộ là bảy mươi lăm năm, kể từ khi tác phẩm được công bố lần đầu\ntiên; đối với tác phẩm điện ảnh, nhiếp ảnh, mỹ thuật ứng dụng chưa được công bố\ntrong thời hạn hai mươi lăm năm, kể từ khi tác phẩm được định hình thì thời hạn\nbảo hộ là một trăm năm, kể từ khi tác phẩm được định hình; đối với tác phẩm\nkhuyết danh, khi các thông tin về tác giả xuất hiện thì thời hạn bảo hộ được tính\ntheo quy định tại điểm b khoản này;\n\nb) Tác phẩm không thuộc loại hình quy định tại điểm a khoản này có thời\nhạn bảo hộ là suốt cuộc đời tác giả và năm mươi năm tiếp theo năm tác giả chết;\n\n42 Điều này được sửa đổi, bổ sung theo qu y định tại khoản 8 Điều 1 của Luật số\n36/2009/QH12 sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ, có hiệu lực kể từ ngày 01\ntháng 01 năm 2010.\n\n[paragraph-275f3e9e1469d960 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 21]\ntrường hợp tác phẩm có đồng tác giả thì thời hạn bảo hộ chấm dứt vào năm thứ\nnăm mươi sau năm đồng tác giả cuối cùng chết;\nc) Thời hạn bảo hộ quy định tại điểm a và điểm b khoản này chấm dứt vào thời\nđiểm 24 giờ ngày 31 tháng 12 của năm chấm dứt thời hạn bảo hộ quyền tác giả.\n\nĐiều 28. Hành vi xâm phạm quyền tác giả43\n\n1. Xâm phạm quyền nhân thân quy định tại Điều 19 của Luật này.\n\n2. Xâm phạm quyền tài sản quy định tại Điều 20 của Luật này.\n\n3. Không thực hiện hoặc thực hiện không đầy đủ nghĩa vụ quy định tại các\nđiều 25, 25a và 26 của Luật này.\n\n4. Cố ý hủy bỏ hoặc làm vô hiệu biện pháp công nghệ hữu hiệu do tác giả,\nchủ sở hữu quyền tác giả thực hiện để bảo vệ quyền tác giả đối với tác phẩm của\nmình nhằm thực hiện hành vi quy định tại Điều này và Điều 35 của Luật này.",
+    "context_ids": [
+      "paragraph-22048fa3c96a6ec7",
+      "paragraph-d49ff4d0d43c59aa",
+      "paragraph-275f3e9e1469d960"
+    ],
+    "context_chars": 2915,
+    "elapsed_ms": 0.2997999999934109,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "context_repacked_offline": true
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "Trong Phần thứ hai, quyền của tổ chức phát sóng được bảo hộ trong bao lâu, tính từ mốc nào?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "gold": [
+      {
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "page": 27,
+        "evidence": "Quyền của tổ chức phát sóng được bảo hộ năm mươi năm tính từ năm tiếp theo năm chương trình phát sóng được thực hiện."
+      }
+    ],
+    "results": [
+      {
+        "id": "paragraph-c4aa842187c40dd5",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 13,
+        "text": "được bảo hộ nếu thuộc một trong các trường hợp sau đây:\na) Chương trình phát sóng, tín hiệu vệ tinh mang chương trình được mã hóa\ncủa tổ chức phát sóng có quốc tịch Việt Nam;\nb) Chương trình phát sóng, tín hiệu vệ tinh mang chương trình được mã hóa\ncủa tổ chức phát sóng được bảo hộ theo điều ước quốc tế mà Cộng hòa xã hội chủ\nnghĩa Việt Nam là thành viên.\n4. Cuộc biểu diễn, bản ghi âm, ghi hình, chương trình phát sóng, tín hiệu vệ\ntinh mang chương trình được mã hóa chỉ được bảo hộ theo quy định tại các khoản\n1, 2 và 3 Điều này với điều kiện không gây phương hại đến quyền tác giả.\n\nChương II\nNỘI DUNG, GIỚI HẠN QUYỀN, THỜI HẠN BẢO HỘ\nQUYỀN TÁC GIẢ, QUYỀN LIÊN QUAN\nMục 1\nNỘI DUNG, GIỚI HẠN QUYỀN, THỜI HẠN BẢO HỘ\nQUYỀN TÁC GIẢ\n\nĐiều 18. Quyền tác giả\nQuyền tác giả đối với tác phẩm quy định tại Luật này bao gồm quyền nhân\nthân và quyền tài sản.",
+        "metadata": {
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "unit_id": "pdf_page_013",
+          "section": "Phần thứ hai",
+          "year": 2025,
+          "article_start": 18,
+          "article_end": 19,
+          "text_char_count": 1649,
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.2614565276857651,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "paragraph-2d4b9469aec27c73",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 26,
+        "text": "3. Tổ chức, cá nhân có nhu cầu khai thác, sử dụng bản ghi âm, ghi hình đã công\nbố của tổ chức, cá nhân Việt Nam nhưng không thể tìm được hoặc không xác định\nđược chủ sở hữu quyền liên quan thì thực hiện theo quy định của Chính phủ.\n\nĐiều 34. Thời hạn bảo hộ quyền liên quan\n1. Quyền của người biểu diễn được bảo hộ năm mươi năm tính từ năm tiếp\ntheo năm cuộc biểu diễn được định hình.\n2. Quyền của nhà sản xuất bản ghi âm, ghi hình được bảo hộ năm mươi năm\ntính từ năm tiếp theo năm công bố hoặc năm mươi năm kể từ năm tiếp theo năm\n\n48 Điều này được sửa đổi, bổ sung lần thứ nhất theo quy định tại khoản 10 Điều 1 của\nLuật số 36/2009/QH12 sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ, có hiệu lực kể từ\nngày 01 tháng 01 năm 2010.\nĐiều này được sửa đổi, bổ sung lần thứ hai theo quy định tại khoản 9 Điều 1 của Luật số\n07/2022/QH15 sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ, có hiệu lực kể từ ngày 01\ntháng 01 năm 2023.",
+        "metadata": {
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "unit_id": "pdf_page_026",
+          "section": "Phần thứ hai",
+          "year": 2025,
+          "article_start": 33,
+          "article_end": 34,
+          "text_char_count": 2695,
+          "chunking_strategy": "paragraph",
+          "chunk_index": 2
+        },
+        "score": 0.23648966430523025,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "paragraph-7bb37c4a4d99fed2",
+        "source_id": "luat-shtt-155-vbhn-vpqh-2025",
+        "source": "Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09",
+        "page": 24,
+        "text": "1. Tổ chức phát sóng có độc quyền thực hiện hoặc cho phép tổ chức, cá nhân\nkhác thực hiện các quyền sau đây:\n\na) Phát sóng, tái phát sóng chương trình phát sóng của mình;\n\nb) Sao chép trực tiếp hoặc gián tiếp toàn bộ hoặc một phần bản định hình\nchương trình phát sóng của mình bằng bất kỳ phương tiện hay hình thức nào, trừ\ntrường hợp quy định tại điểm a khoản 3 Điều này;\n\nc) Định hình chương trình phát sóng của mình;\n\nd) Phân phối, nhập khẩu để phân phối đến công chúng thông qua bán hoặc\nhình thức chuyển giao quyền sở hữu khác đối với bản định hình chương trình phát\nsóng của mình dưới dạng hữu hình, trừ trường hợp quy định tại điểm b khoản 3\nĐiều này.",
+        "metadata": {
+          "source_version": "155-VBHN-VPQH-2025-09-09",
+          "unit_id": "pdf_page_024",
+          "section": "Phần thứ hai",
+          "year": 2025,
+          "article_start": 31,
+          "article_end": 31,
+          "text_char_count": 2308,
+          "chunking_strategy": "paragraph",
+          "chunk_index": 1
+        },
+        "score": 0.227747956771526,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[paragraph-c4aa842187c40dd5 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 13]\nđược bảo hộ nếu thuộc một trong các trường hợp sau đây:\na) Chương trình phát sóng, tín hiệu vệ tinh mang chương trình được mã hóa\ncủa tổ chức phát sóng có quốc tịch Việt Nam;\nb) Chương trình phát sóng, tín hiệu vệ tinh mang chương trình được mã hóa\ncủa tổ chức phát sóng được bảo hộ theo điều ước quốc tế mà Cộng hòa xã hội chủ\nnghĩa Việt Nam là thành viên.\n4. Cuộc biểu diễn, bản ghi âm, ghi hình, chương trình phát sóng, tín hiệu vệ\ntinh mang chương trình được mã hóa chỉ được bảo hộ theo quy định tại các khoản\n1, 2 và 3 Điều này với điều kiện không gây phương hại đến quyền tác giả.\n\nChương II\nNỘI DUNG, GIỚI HẠN QUYỀN, THỜI HẠN BẢO HỘ\nQUYỀN TÁC GIẢ, QUYỀN LIÊN QUAN\nMục 1\nNỘI DUNG, GIỚI HẠN QUYỀN, THỜI HẠN BẢO HỘ\nQUYỀN TÁC GIẢ\n\nĐiều 18. Quyền tác giả\nQuyền tác giả đối với tác phẩm quy định tại Luật này bao gồm quyền nhân\nthân và quyền tài sản.\n\n[paragraph-2d4b9469aec27c73 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 26]\n3. Tổ chức, cá nhân có nhu cầu khai thác, sử dụng bản ghi âm, ghi hình đã công\nbố của tổ chức, cá nhân Việt Nam nhưng không thể tìm được hoặc không xác định\nđược chủ sở hữu quyền liên quan thì thực hiện theo quy định của Chính phủ.\n\nĐiều 34. Thời hạn bảo hộ quyền liên quan\n1. Quyền của người biểu diễn được bảo hộ năm mươi năm tính từ năm tiếp\ntheo năm cuộc biểu diễn được định hình.\n2. Quyền của nhà sản xuất bản ghi âm, ghi hình được bảo hộ năm mươi năm\ntính từ năm tiếp theo năm công bố hoặc năm mươi năm kể từ năm tiếp theo năm\n\n48 Điều này được sửa đổi, bổ sung lần thứ nhất theo quy định tại khoản 10 Điều 1 của\nLuật số 36/2009/QH12 sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ, có hiệu lực kể từ\nngày 01 tháng 01 năm 2010.\nĐiều này được sửa đổi, bổ sung lần thứ hai theo quy định tại khoản 9 Điều 1 của Luật số\n07/2022/QH15 sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ, có hiệu lực kể từ ngày 01\ntháng 01 năm 2023.\n\n[paragraph-7bb37c4a4d99fed2 | Consolidated Intellectual Property Law No. 155/VBHN-VPQH, 2025-09-09 | page 24]\n1. Tổ chức phát sóng có độc quyền thực hiện hoặc cho phép tổ chức, cá nhân\nkhác thực hiện các quyền sau đây:\n\na) Phát sóng, tái phát sóng chương trình phát sóng của mình;\n\nb) Sao chép trực tiếp hoặc gián tiếp toàn bộ hoặc một phần bản định hình\nchương trình phát sóng của mình bằng bất kỳ phương tiện hay hình thức nào, trừ\ntrường hợp quy định tại điểm a khoản 3 Điều này;\n\nc) Định hình chương trình phát sóng của mình;\n\nd) Phân phối, nhập khẩu để phân phối đến công chúng thông qua bán hoặc\nhình thức chuyển giao quyền sở hữu khác đối với bản định hình chương trình phát\nsóng của mình dưới dạng hữu hình, trừ trường hợp quy định tại điểm b khoản 3\nĐiều này.",
+    "context_ids": [
+      "paragraph-c4aa842187c40dd5",
+      "paragraph-2d4b9469aec27c73",
+      "paragraph-7bb37c4a4d99fed2"
+    ],
+    "context_chars": 2781,
+    "elapsed_ms": 0.2820999998220941,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "context_repacked_offline": true
+  }
+]

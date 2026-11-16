@@ -1,0 +1,17 @@
+{
+  "strategy": "tfidf",
+  "split": "test",
+  "n": 5,
+  "hit1": 2,
+  "hit3": 4,
+  "context_hit": 4,
+  "avg_context_chars": 2799,
+  "median_ms": 0.3677000004245201,
+  "index_seconds": 0.00909959999989951,
+  "service_cost_usd": 0,
+  "source_budget_chars": 800,
+  "budget_chars": 3000,
+  "context_repacked_offline": true,
+  "context_repack_elapsed_ms": 0.06329999996523838,
+  "timing_note": "Retrieval timings and service costs are from the source run; only context packing and context metrics were recomputed offline."
+}
