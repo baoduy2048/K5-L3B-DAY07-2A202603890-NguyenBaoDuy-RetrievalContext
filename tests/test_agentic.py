@@ -27,15 +27,64 @@ class AgentTests(unittest.TestCase):
         self.assertEqual(r.calls, [('hoàn tiền', {'year': 2025}, 3)])
         self.assertEqual(result['events'][0]['context_ids'], ['c1'])
 
+    def test_context_citations_do_not_need_inline_ids_in_answer(self):
+        c = Controller([
+            {'action': 'search', 'query': 'hoàn tiền'},
+            {'action': 'answer', 'answer': 'Có thể yêu cầu hoàn tiền trong 7 ngày.', 'citations': ['c1']},
+        ])
+
+        result = run_agent('Hoàn tiền?', c, Retriever([CHUNK]))
+
+        self.assertEqual(result['status'], 'answered')
+        self.assertEqual(result['answer'], 'Có thể yêu cầu hoàn tiền trong 7 ngày.')
+        self.assertEqual(result['citations'], ['c1'])
+
     def test_invalid_citation_and_empty_context_abstain(self):
         for rows, cid in (([CHUNK], 'not-present'), ([], 'c1')):
             c = Controller([{'action':'search','query':'q'}, {'action':'answer','answer':f'7 ngày [{cid}]','citations':[cid]}])
-            self.assertEqual(run_agent('q', c, Retriever(rows))['status'], 'abstain')
+            result = run_agent('q', c, Retriever(rows))
+            self.assertEqual(result['status'], 'abstain')
+            failure = next(e for e in result['events'] if e['event'] == 'answer_validation_failed')
+            self.assertEqual(failure['attempted_answer'], f'7 ngày [{cid}]')
+            self.assertEqual(failure['attempted_citations'], [cid])
+            self.assertTrue(failure['reasons'])
+
+    def test_model_abstention_is_logged_separately_from_invalid_citations(self):
+        c = Controller([
+            {'action': 'search', 'query': 'q'},
+            {'action': 'answer', 'answer': 'Không đủ bằng chứng.', 'abstain': True, 'citations': []},
+        ])
+
+        result = run_agent('q', c, Retriever([CHUNK]))
+
+        self.assertEqual(result['status'], 'abstain')
+        self.assertEqual(result['answer'], 'Không đủ bằng chứng.')
+        self.assertEqual(result['events'][-1], {'event': 'model_abstention'})
+
+    def test_answer_without_citations_logs_validation_reason(self):
+        c = Controller([
+            {'action': 'search', 'query': 'q'},
+            {'action': 'answer', 'answer': 'The answer is supported.', 'citations': []},
+        ])
+
+        result = run_agent('q', c, Retriever([CHUNK]))
+
+        self.assertEqual(result['status'], 'abstain')
+        failure = result['events'][-1]
+        self.assertEqual(failure['event'], 'answer_validation_failed')
+        self.assertEqual(failure['attempted_answer'], 'The answer is supported.')
+        self.assertEqual(failure['attempted_citations'], [])
+        self.assertEqual(failure['reasons'], ['missing_citations'])
 
     def test_search_limit_is_enforced(self):
         c = Controller([{'action':'search','query':'one'}, {'action':'search','query':'two'}, {'action':'search','query':'three'}])
         r = Retriever([CHUNK]); result = run_agent('q', c, r, max_searches=2)
-        self.assertEqual(result['status'], 'abstain'); self.assertEqual(len(r.calls), 2)
+        self.assertEqual(result['status'], 'abstain')
+        self.assertEqual(len(r.calls), 2)
+        self.assertEqual(result['events'][-1], {
+            'event': 'search_limit',
+            'attempted_query': 'three',
+        })
 
     def test_context_budget_across_multiple_searches(self):
         other = {**CHUNK, 'id': 'c2', 'text': 'Một đoạn bằng chứng khác.'}

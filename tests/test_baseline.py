@@ -38,6 +38,12 @@ class BaselineTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate(self.chunks, [{**self.q, 'gold': [wrong]}])
 
+    def test_evidence_matching_ignores_whitespace_layout(self):
+        formatted_chunk = chunk('formatted', 'Quyền tác giả phát sinh\nkể từ khi tác phẩm được sáng tạo.')
+        gold = [{'source_id': 'doc', 'page': 1,
+                 'evidence': 'Quyền tác giả phát sinh kể từ khi tác phẩm được sáng tạo.'}]
+        self.assertTrue(hit(formatted_chunk, gold))
+
     def test_budget_dedup_and_empty_query(self):
         context, ids = pack_context([self.chunks[0], self.chunks[0]], 800)
         self.assertEqual(ids, ['a'])
@@ -68,9 +74,9 @@ class BaselineTests(unittest.TestCase):
             subprocess.run([sys.executable, str(ROOT/'starter/baseline.py'), '--chunks', str(root/'chunks.json'),
                             '--questions', str(root/'q.json'), '--split', 'dev', '--output', str(root/'out')],
                            check=True, capture_output=True, text=True)
-            summary = json.loads((root/'out/summary.json').read_text())
+            summary = json.loads((root/'out/summary.json').read_text(encoding='utf-8'))
             self.assertEqual((summary['split'], summary['n'], summary['hit1']), ('dev', 1, 1))
-            self.assertEqual(len(json.loads((root/'out/traces.json').read_text())), 1)
+            self.assertEqual(len(json.loads((root/'out/traces.json').read_text(encoding='utf-8'))), 1)
 
 
 if __name__ == '__main__': unittest.main()

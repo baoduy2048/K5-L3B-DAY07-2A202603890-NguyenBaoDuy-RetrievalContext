@@ -1,0 +1,34 @@
+[
+  {
+    "id": "q21",
+    "split": "dev",
+    "question": "Một đơn đăng ký nhãn hiệu phải nộp chính xác bao nhiêu đồng phí và lệ phí?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Điều 12 chỉ quy định phải nộp phí, lệ phí theo quy định pháp luật có liên quan; corpus không nêu mức tiền hoặc biểu phí cụ thể."
+  },
+  {
+    "id": "q22",
+    "split": "dev",
+    "question": "Mã số của biểu mẫu tờ khai dùng để đăng ký quyền tác giả là gì?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Corpus là nội dung luật và không có mã biểu mẫu hay tờ khai hành chính để đăng ký quyền tác giả."
+  },
+  {
+    "id": "q23",
+    "split": "test",
+    "question": "Địa chỉ email hoặc đường dẫn trực tuyến chính thức để nộp đơn đăng ký sáng chế là gì?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Corpus không cung cấp email, URL hoặc kênh nộp đơn trực tuyến."
+  },
+  {
+    "id": "q24",
+    "split": "test",
+    "question": "Địa chỉ bưu chính của cơ quan tiếp nhận đơn đăng ký nhãn hiệu là gì?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Corpus không nêu địa chỉ đường phố hoặc địa chỉ bưu chính của cơ quan tiếp nhận đơn."
+  }
+]

@@ -48,7 +48,13 @@ def validate(chunks, questions):
 
 
 def hit(chunk, gold):
-    return any(chunk['source_id'] == g['source_id'] and chunk['page'] == g['page'] and g['evidence'] in chunk['text'] for g in gold)
+    text = ' '.join(chunk['text'].split())
+    return any(
+        chunk['source_id'] == g['source_id']
+        and chunk['page'] == g['page']
+        and ' '.join(g['evidence'].split()) in text
+        for g in gold
+    )
 
 
 class TfidfIndex:
